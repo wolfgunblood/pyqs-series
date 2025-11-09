@@ -1177,5 +1177,181 @@
       "similarQuestions": []
     },
     "id": "d8af47d7-e233-48b0-aa06-98eb87bbb2ff"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Meaning of 'Nirguna Bhakti' in the Bhakti Movement",
+      "question": "Which one of the following does 'Nirguna Bhakti' refer to?"
+    },
+    "content_hi": {
+      "title": "भक्ति आंदोलन में 'निर्गुण भक्ति' का अर्थ",
+      "question": "'निर्गुण भक्ति' निम्नलिखित में से किसकी ओर संकेत करती है?"
+    },
+    "options": [
+      "(a) Shaivite form of worship",
+      "(b) Vaishnavite form of worship",
+      "(c) Incarnation worship",
+      "(d) Abstract form of God worship"
+    ],
+    "options_hi": [
+      "(a) शैव पंथ की उपासना",
+      "(b) वैष्णव पंथ की उपासना",
+      "(c) अवतारों की उपासना",
+      "(d) निराकार ईश्वर की उपासना"
+    ],
+    "correctAnswer": "(d) Abstract form of God worship",
+    "correctAnswer_hi": "(d) निराकार ईश्वर की उपासना",
+    "explanation": "'Nirguna Bhakti' refers to devotion to a formless, attributeless God. It emphasizes the worship of the divine without physical or material form, as taught by saints like Kabir and Guru Nanak.",
+    "explanation_hi": "'निर्गुण भक्ति' का अर्थ निराकार और निर्गुण ईश्वर की उपासना से है। इसमें भक्ति का केंद्र भौतिक रूप से रहित ईश्वर होता है, जैसा कि कबीर और गुरु नानक जैसे संतों ने सिखाया।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Art & Culture",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "6602f6af-3db9-48dd-9623-b476de813ccc"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Objective of the Ain-i-Akbari under Mughal Rule",
+      "question": "What did Ain-i-Akbari seek to promote within the frontiers of the Mughal State?"
+    },
+    "content_hi": {
+      "title": "मुगल शासन के अंतर्गत 'आइन-ए-अकबरी' का उद्देश्य",
+      "question": "'आइन-ए-अकबरी' ने मुगल साम्राज्य की सीमाओं के भीतर किस बात को प्रोत्साहित करने का प्रयास किया?"
+    },
+    "options": [
+      "(a) Social disharmony influenced by the whims of the nobility",
+      "(b) Cessation of the provincial units from central rule",
+      "(c) Social harmony with the support of a strong ruling class",
+      "(d) Establishment of a rule of rural republics by overthrowing the Mughal suzerainty"
+    ],
+    "options_hi": [
+      "(a) अमीरों की मनमानी से प्रेरित सामाजिक असामंजस्य",
+      "(b) प्रांतीय इकाइयों का केंद्रीय शासन से अलग होना",
+      "(c) एक सशक्त शासक वर्ग के सहयोग से सामाजिक समरसता",
+      "(d) मुगल अधिपत्य को उखाड़ फेंक कर ग्रामीण गणराज्यों की स्थापना"
+    ],
+    "correctAnswer": "(c) Social harmony with the support of a strong ruling class",
+    "correctAnswer_hi": "(c) एक सशक्त शासक वर्ग के सहयोग से सामाजिक समरसता",
+    "explanation": "The Ain-i-Akbari, written by Abul Fazl, sought to promote social harmony and administrative unity within the Mughal Empire under Emperor Akbar. It emphasized governance based on justice, tolerance, and the support of a strong and efficient ruling class.",
+    "explanation_hi": "'आइन-ए-अकबरी', जिसे अबुल फ़ज़ल ने लिखा था, का उद्देश्य सम्राट अकबर के शासन में मुगल साम्राज्य के भीतर सामाजिक समरसता और प्रशासनिक एकता को बढ़ावा देना था। यह न्याय, सहिष्णुता और एक सशक्त तथा सक्षम शासक वर्ग पर आधारित शासन की वकालत करता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Medieval History",
+        "Prelims",
+        "Previous Year",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "6b6d28d9-a5fd-4631-af90-c3dce392c5fe"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Starting Point of Gandhiji’s Salt March to Dandi (1930)",
+      "question": "Gandhiji's Salt March to Dandi was started from which one of the following places?"
+    },
+    "content_hi": {
+      "title": "गांधीजी के दांडी मार्च (1930) का प्रारंभिक स्थान",
+      "question": "गांधीजी का दांडी नमक मार्च निम्नलिखित में से किस स्थान से प्रारंभ हुआ था?"
+    },
+    "options": [
+      "(a) Kochrab Ashram",
+      "(b) Sabarmati Ashram",
+      "(c) Ahmedabad Textile mill",
+      "(d) Ahmedabad Jail"
+    ],
+    "options_hi": [
+      "(a) कोचरब आश्रम",
+      "(b) साबरमती आश्रम",
+      "(c) अहमदाबाद टेक्सटाइल मिल",
+      "(d) अहमदाबाद जेल"
+    ],
+    "correctAnswer": "(b) Sabarmati Ashram",
+    "correctAnswer_hi": "(b) साबरमती आश्रम",
+    "explanation": "Mahatma Gandhi began the historic Salt March on 12th March 1930 from Sabarmati Ashram near Ahmedabad to Dandi in Gujarat, protesting against the British salt tax and symbolizing the beginning of the Civil Disobedience Movement.",
+    "explanation_hi": "महात्मा गांधी ने 12 मार्च 1930 को अहमदाबाद के पास साबरमती आश्रम से दांडी (गुजरात) तक ऐतिहासिक नमक सत्याग्रह की शुरुआत की थी, जो ब्रिटिश नमक कर के विरोध और सविनय अवज्ञा आंदोलन की शुरुआत का प्रतीक था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Freedom Movement",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "4166ad1e-f261-43b3-b8e9-cc2bf8b14c4c"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Socialist Group within the Indian National Congress",
+      "question": "Who among the following was not a member of the Socialist group in the Congress Party?"
+    },
+    "content_hi": {
+      "title": "भारतीय राष्ट्रीय कांग्रेस में समाजवादी समूह",
+      "question": "निम्नलिखित में से कौन कांग्रेस पार्टी के समाजवादी समूह का सदस्य नहीं था?"
+    },
+    "options": [
+      "(a) Jayaprakash Narayan",
+      "(b) Rajendra Prasad",
+      "(c) N. G. Ranga",
+      "(d) Narendra Dev"
+    ],
+    "options_hi": [
+      "(a) जयप्रकाश नारायण",
+      "(b) राजेंद्र प्रसाद",
+      "(c) एन. जी. रंगा",
+      "(d) नरेंद्र देव"
+    ],
+    "correctAnswer": "(b) Rajendra Prasad",
+    "correctAnswer_hi": "(b) राजेंद्र प्रसाद",
+    "explanation": "The Socialist group within the Congress Party included leaders like Jayaprakash Narayan, Acharya Narendra Dev, and N. G. Ranga. Rajendra Prasad, however, was not part of the Socialist group; he was aligned with the moderate faction of the Congress.",
+    "explanation_hi": "कांग्रेस पार्टी के समाजवादी समूह में जयप्रकाश नारायण, आचार्य नरेंद्र देव और एन. जी. रंगा जैसे नेता शामिल थे। लेकिन राजेंद्र प्रसाद इस समाजवादी समूह का हिस्सा नहीं थे; वे कांग्रेस के उदारवादी गुट से जुड़े थे।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Freedom Movement",
+        "Prelims",
+        "Previous Year",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "c25ba707-59c6-45e0-b4c4-6c10909e590c"
   }
 ]

@@ -53,6 +53,18 @@ export function PayloadEditor({
 
   return (
     <div className="space-y-3">
+      <div className="flex flex-wrap gap-2">
+        <Button type="button" variant="secondary" onClick={handlePretty}>
+          Pretty
+        </Button>
+        <Button type="button" variant="secondary" onClick={handleMinify}>
+          Minify
+        </Button>
+        <Button type="button" variant="outline" onClick={handleReset}>
+          Reset
+        </Button>
+      </div>
+
       <textarea
         id={id}
         name={name}
@@ -76,17 +88,6 @@ export function PayloadEditor({
         </p>
       ) : null}
 
-      <div className="flex flex-wrap gap-2">
-        <Button type="button" variant="secondary" onClick={handlePretty}>
-          Pretty
-        </Button>
-        <Button type="button" variant="secondary" onClick={handleMinify}>
-          Minify
-        </Button>
-        <Button type="button" variant="outline" onClick={handleReset}>
-          Reset
-        </Button>
-      </div>
     </div>
   );
 }

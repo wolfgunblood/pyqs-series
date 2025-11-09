@@ -197,15 +197,23 @@ export default function AddQuestionPage({ searchParams }) {
         action={addQuestion}
         className="space-y-6 rounded-xl border border-border bg-card p-6 shadow-sm"
       >
-        <div className="space-y-3">
-          <label htmlFor="payload" className="text-sm font-medium">
-            Question JSON payload
-          </label>
-          <p className="text-xs text-muted-foreground">
-            Paste the entire question object (without an <code>id</code>). Use
-            the Pretty / Minify buttons to tidy the JSON, or Reset to load the
-            sample question again.
-          </p>
+        <div className="space-y-4">
+          <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <div className="space-y-1">
+              <label htmlFor="payload" className="text-sm font-medium">
+                Question JSON payload
+              </label>
+              <p className="text-xs text-muted-foreground">
+                Paste the entire question object (without an <code>id</code>).
+                Use the Pretty / Minify buttons to tidy the JSON, or Reset to
+                load the sample question again.
+              </p>
+            </div>
+            <Button type="submit" className="w-full md:w-auto">
+              Save question
+            </Button>
+          </div>
+
           <PayloadEditor
             id="payload"
             name="payload"
@@ -213,10 +221,6 @@ export default function AddQuestionPage({ searchParams }) {
             helper="Pretty / Minify clean the JSON. Reset restores the sample question."
           />
         </div>
-
-        <Button type="submit" className="w-full md:w-auto">
-          Save question
-        </Button>
       </form>
     </main>
   );
