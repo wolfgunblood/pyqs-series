@@ -10,7 +10,16 @@ export default function QuestionDetailPage() {
   const params = useParams();
   const requestedId = params?.id ? decodeURIComponent(params.id) : "";
   console.log("requestedId", requestedId);
-  const question = questions.find((item) => String(item?.id) === requestedId);
+  const questionIndex = questions.findIndex(
+    (item) => String(item?.id) === requestedId,
+  );
+  const question = questions[questionIndex];
+  const previousQuestion =
+    questionIndex > 0 ? questions[questionIndex - 1] : null;
+  const nextQuestion =
+    questionIndex >= 0 && questionIndex < questions.length - 1
+      ? questions[questionIndex + 1]
+      : null;
 
   if (!question) {
     return (
@@ -43,6 +52,44 @@ export default function QuestionDetailPage() {
       </div>
 
       <QuestionRenderer question={question} />
+
+      <div className="flex flex-col gap-3 border-t border-slate-200 pt-6 text-sm font-medium text-sky-700 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          {previousQuestion
+            ? (
+              <Link
+                href={`/pyq/${encodeURIComponent(previousQuestion.id)}`}
+                className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sky-700 transition hover:border-sky-300 hover:text-sky-900"
+              >
+                ← Previous question
+              </Link>
+            )
+            : (
+              <span className="text-xs uppercase tracking-wide text-slate-400">
+                Start of list
+              </span>
+            )}
+        </div>
+        <div className="text-center text-xs uppercase tracking-wide text-slate-500 sm:text-right">
+          Question {questionIndex + 1} of {questions.length}
+        </div>
+        <div className="text-right">
+          {nextQuestion
+            ? (
+              <Link
+                href={`/pyq/${encodeURIComponent(nextQuestion.id)}`}
+                className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-2 text-sky-700 transition hover:border-sky-300 hover:text-sky-900"
+              >
+                Next question →
+              </Link>
+            )
+            : (
+              <span className="text-xs uppercase tracking-wide text-slate-400">
+                End of list
+              </span>
+            )}
+        </div>
+      </div>
     </main>
   );
 }

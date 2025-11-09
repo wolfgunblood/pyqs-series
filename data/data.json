@@ -1692,5 +1692,426 @@
       "similarQuestions": []
     },
     "id": "22f5a398-b548-406b-ba5c-f40ee9cd706a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Amphibians of the Plant Kingdom",
+      "question": "Which one of the following cannot be called 'Amphibian of the Plant Kingdom'?"
+    },
+    "content_hi": {
+      "title": "पादप जगत के उभयचर",
+      "question": "निम्नलिखित में से किसे 'पादप जगत का उभयचर' नहीं कहा जा सकता?"
+    },
+    "options": [
+      "(a) Spirogyra",
+      "(b) Riccia",
+      "(c) Funaria",
+      "(d) Marchantia"
+    ],
+    "options_hi": [
+      "(a) स्पाइरोगाइरा",
+      "(b) रिक्किया",
+      "(c) फ्यूनारिया",
+      "(d) मर्चैंशिया"
+    ],
+    "correctAnswer": "(a) Spirogyra",
+    "correctAnswer_hi": "(a) स्पाइरोगाइरा",
+    "explanation": "Bryophytes such as Riccia, Funaria, and Marchantia are called 'Amphibians of the Plant Kingdom' because they require water for fertilization but can live on land. Spirogyra, however, is an alga and not a bryophyte, hence it cannot be called an amphibian of the plant kingdom.",
+    "explanation_hi": "रिक्किया, फ्यूनारिया और मर्चैंशिया जैसे ब्रायोफाइट्स को 'पादप जगत के उभयचर' कहा जाता है क्योंकि उन्हें निषेचन के लिए जल की आवश्यकता होती है, लेकिन वे भूमि पर भी रहते हैं। स्पाइरोगाइरा एक शैवाल है, ब्रायोफाइट नहीं, इसलिए इसे पादप जगत का उभयचर नहीं कहा जा सकता।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Science",
+        "Biology",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "533b1521-da1e-476c-88ad-285b6a5b9832"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Consequences of Deforestation",
+      "question": "Which one of the following is not a consequence of deforestation?"
+    },
+    "content_hi": {
+      "title": "वनों की कटाई के परिणाम",
+      "question": "निम्नलिखित में से कौन वनों की कटाई का परिणाम नहीं है?"
+    },
+    "options": [
+      "(a) Increased Groundwater",
+      "(b) Decreased Biodiversity",
+      "(c) Increased Soil Erosion",
+      "(d) Decreased Rainfall"
+    ],
+    "options_hi": [
+      "(a) भूजल में वृद्धि",
+      "(b) जैव विविधता में कमी",
+      "(c) मृदा अपरदन में वृद्धि",
+      "(d) वर्षा में कमी"
+    ],
+    "correctAnswer": "(a) Increased Groundwater",
+    "correctAnswer_hi": "(a) भूजल में वृद्धि",
+    "explanation": "Deforestation leads to decreased biodiversity, increased soil erosion, and reduced rainfall due to the loss of vegetation cover. It does not increase groundwater; rather, it reduces groundwater recharge due to loss of tree cover and soil compaction.",
+    "explanation_hi": "वनों की कटाई से जैव विविधता में कमी, मृदा अपरदन में वृद्धि और वर्षा में कमी होती है क्योंकि वनस्पति आवरण नष्ट हो जाता है। इससे भूजल में वृद्धि नहीं होती, बल्कि पेड़ों की कमी के कारण भूजल पुनर्भरण घट जाता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Environment",
+        "Geography",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "0a3c42d4-6d9b-48a0-9f62-13a5fe18d4d4"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Chromosome Pairing in a Normal Human Male",
+      "question": "Which one of the following chromosomes has a mismatched pair in a normal human male?"
+    },
+    "content_hi": {
+      "title": "सामान्य मानव पुरुष में गुणसूत्रों का युग्मन",
+      "question": "निम्नलिखित में से किस गुणसूत्र का युग्म सामान्य मानव पुरुष में असमान (मिसमैच्ड) होता है?"
+    },
+    "options": [
+      "(a) Chromosome number 21",
+      "(b) Chromosome number 18",
+      "(c) X-Chromosome",
+      "(d) Chromosome number 13"
+    ],
+    "options_hi": [
+      "(a) गुणसूत्र संख्या 21",
+      "(b) गुणसूत्र संख्या 18",
+      "(c) एक्स गुणसूत्र",
+      "(d) गुणसूत्र संख्या 13"
+    ],
+    "correctAnswer": "(c) X-Chromosome",
+    "correctAnswer_hi": "(c) एक्स गुणसूत्र",
+    "explanation": "In a normal human male, the sex chromosomes are mismatched, consisting of one X and one Y chromosome (XY). All other chromosomes exist in homologous pairs, such as 21, 18, and 13.",
+    "explanation_hi": "एक सामान्य मानव पुरुष में लैंगिक गुणसूत्र असमान होते हैं — एक X और एक Y गुणसूत्र (XY)। अन्य सभी गुणसूत्र जैसे 21, 18 और 13 समान युग्मों में पाए जाते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Science",
+        "Biology",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "4950d777-b596-4795-a9d6-05c72b7394c8"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Origin and Meaning of the Word 'Vaccine'",
+      "question": "The word 'Vaccine' has been derived from a Latin word having meaning:"
+    },
+    "content_hi": {
+      "title": "'वैक्सीन' शब्द की उत्पत्ति और अर्थ",
+      "question": "'वैक्सीन' शब्द एक लैटिन शब्द से लिया गया है जिसका अर्थ होता है:"
+    },
+    "options": [
+      "(a) Antibody",
+      "(b) Immunity",
+      "(c) Cow",
+      "(d) Guinea pig"
+    ],
+    "options_hi": [
+      "(a) प्रतिरक्षी",
+      "(b) प्रतिरक्षा",
+      "(c) गाय",
+      "(d) गिनी पिग"
+    ],
+    "correctAnswer": "(c) Cow",
+    "correctAnswer_hi": "(c) गाय",
+    "explanation": "The term 'vaccine' is derived from the Latin word 'vacca', meaning 'cow'. It refers to the cowpox material used by Edward Jenner in 1796 to create the first vaccine against smallpox.",
+    "explanation_hi": "'वैक्सीन' शब्द लैटिन शब्द 'वक्का' से लिया गया है, जिसका अर्थ 'गाय' होता है। यह उस गाय के चेचक (काउपॉक्स) पदार्थ से संबंधित है, जिसे एडवर्ड जेनर ने 1796 में चेचक के खिलाफ पहली वैक्सीन बनाने में प्रयोग किया था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Science",
+        "Biology",
+        "Health",
+        "Prelims",
+        "Previous Year"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "a5568fd3-f401-4676-8afd-0f6dfea0b471"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Who among the following discovered Proton?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से प्रोटॉन की खोज किसने की थी?"
+    },
+    "options": [
+      "(a) J J Thomson",
+      "(b) E Goldstein",
+      "(c) E Rutherford",
+      "(d) J Chadwick"
+    ],
+    "options_hi": [
+      "(a) जे. जे. थॉमसन",
+      "(b) ई. गोल्डस्टीन",
+      "(c) ई. रदरफोर्ड",
+      "(d) जे. चैडविक"
+    ],
+    "correctAnswer": "(c) E Rutherford",
+    "correctAnswer_hi": "(c) ई. रदरफोर्ड",
+    "explanation": "Proton was discovered by Ernest Rutherford in 1917 during his experiments on nitrogen gas, where he observed positively charged particles emitted from atomic nuclei.",
+    "explanation_hi": "प्रोटॉन की खोज अर्नेस्ट रदरफोर्ड ने 1917 में नाइट्रोजन गैस पर अपने प्रयोगों के दौरान की थी, जिसमें उन्होंने परमाणु नाभिक से उत्सर्जित धनात्मक कणों को देखा।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Science",
+        "General Knowledge",
+        "Previous Year",
+        "Factual",
+        "Statement Based"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "05f60652-445a-491f-813b-610e23c6b3b7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Which one of the following pairs of Zonal Railways and their Headquarters is not correctly matched?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से कौन-सा ज़ोनल रेलवे और उसके मुख्यालय का जोड़ा सही रूप से मेल नहीं खाता है?"
+    },
+    "options": [
+      "(a) Central - Nagpur",
+      "(b) Eastern - Kolkata",
+      "(c) Western - Mumbai",
+      "(d) Northern - New Delhi"
+    ],
+    "options_hi": [
+      "(a) सेंट्रल - नागपुर",
+      "(b) ईस्टर्न - कोलकाता",
+      "(c) वेस्टर्न - मुंबई",
+      "(d) नॉर्दर्न - नई दिल्ली"
+    ],
+    "correctAnswer": "(a) Central - Nagpur",
+    "correctAnswer_hi": "(a) सेंट्रल - नागपुर",
+    "explanation": "The headquarters of the Central Railway is in Mumbai, not Nagpur. Therefore, the pair 'Central - Nagpur' is not correctly matched.",
+    "explanation_hi": "सेंट्रल रेलवे का मुख्यालय मुंबई में है, नागपुर में नहीं। अतः 'सेंट्रल - नागपुर' जोड़ा सही रूप से मेल नहीं खाता।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "geography",
+      "tags": [
+        "UPSC",
+        "Geography",
+        "General Knowledge",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "e7d82889-3936-4676-b03f-16afe0d90816"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Tri-service contingent of which one of the following countries participated in India's Republic Day parade in 2021?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से किस देश की तीनों सेनाओं की टुकड़ी ने 2021 में भारत की गणतंत्र दिवस परेड में भाग लिया था?"
+    },
+    "options": [
+      "(a) Myanmar",
+      "(b) Nepal",
+      "(c) Bhutan",
+      "(d) Bangladesh"
+    ],
+    "options_hi": [
+      "(a) म्यांमार",
+      "(b) नेपाल",
+      "(c) भूटान",
+      "(d) बांग्लादेश"
+    ],
+    "correctAnswer": "(d) Bangladesh",
+    "correctAnswer_hi": "(d) बांग्लादेश",
+    "explanation": "A tri-service contingent from Bangladesh participated in India's Republic Day parade in 2021 to mark the 50th anniversary of Bangladesh's Liberation War and India's role in it.",
+    "explanation_hi": "बांग्लादेश की तीनों सेनाओं की टुकड़ी ने 2021 में भारत की गणतंत्र दिवस परेड में भाग लिया था, जो बांग्लादेश मुक्ति संग्राम की 50वीं वर्षगांठ और उसमें भारत की भूमिका को चिह्नित करने के लिए था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "international_relations",
+      "tags": [
+        "UPSC",
+        "Current Affairs",
+        "International Relations",
+        "Defense",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "c3de4e6c-f854-46cc-9446-9916699befb6"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Which one of the following does not figure in the list of languages in the Eighth Schedule of the Constitution of India?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से कौन-सी भाषा भारत के संविधान की आठवीं अनुसूची में शामिल नहीं है?"
+    },
+    "options": [
+      "(a) Dogri",
+      "(b) Bhoti",
+      "(c) Maithili",
+      "(d) Santhali"
+    ],
+    "options_hi": [
+      "(a) डोगरी",
+      "(b) भोटी",
+      "(c) मैथिली",
+      "(d) संथाली"
+    ],
+    "correctAnswer": "(b) Bhoti",
+    "correctAnswer_hi": "(b) भोटी",
+    "explanation": "Dogri, Maithili, and Santhali are included in the Eighth Schedule of the Indian Constitution, while Bhoti is not included.",
+    "explanation_hi": "डोगरी, मैथिली और संथाली भाषाएँ भारत के संविधान की आठवीं अनुसूची में शामिल हैं, जबकि भोटी भाषा शामिल नहीं है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "Polity",
+        "Constitution",
+        "General Knowledge",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "646b9d57-dc64-4f18-8ecf-70cd9ea3315e"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "As a routine exercise, Operations 'Garam Hawa' and 'Sard Hawa' are conducted by"
+    },
+    "content_hi": {
+      "question": "नियमित अभ्यास के रूप में 'गरम हवा' और 'सर्द हवा' अभियान किसके द्वारा संचालित किए जाते हैं?"
+    },
+    "options": [
+      "(a) BSF",
+      "(b) ITBP",
+      "(c) CRPF",
+      "(d) CISF"
+    ],
+    "options_hi": [
+      "(a) बीएसएफ",
+      "(b) आईटीबीपी",
+      "(c) सीआरपीएफ",
+      "(d) सीआईएसएफ"
+    ],
+    "correctAnswer": "(a) BSF",
+    "correctAnswer_hi": "(a) बीएसएफ",
+    "explanation": "Operations 'Garam Hawa' and 'Sard Hawa' are conducted by the Border Security Force (BSF) along the India-Pakistan border in Rajasthan to enhance security vigilance during extreme weather conditions.",
+    "explanation_hi": "'गरम हवा' और 'सर्द हवा' अभियान सीमा सुरक्षा बल (BSF) द्वारा भारत-पाकिस्तान सीमा पर राजस्थान में अत्यधिक मौसम की परिस्थितियों के दौरान सुरक्षा सतर्कता बढ़ाने के लिए संचालित किए जाते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "internal_security",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Internal Security",
+        "Current Affairs",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "2c76150e-c587-4a25-8cf4-bb905a9255f5"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Who among the following was the founder of the Swatantra Party?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से स्वातंत्र्य पार्टी के संस्थापक कौन थे?"
+    },
+    "options": [
+      "(a) C Rajgopalachari",
+      "(b) Deen Dayal Upadhyay",
+      "(c) Shyama Prasad Mukherjee",
+      "(d) Acharya Narendra Dev"
+    ],
+    "options_hi": [
+      "(a) सी. राजगोपालाचारी",
+      "(b) दीनदयाल उपाध्याय",
+      "(c) श्यामा प्रसाद मुखर्जी",
+      "(d) आचार्य नरेंद्र देव"
+    ],
+    "correctAnswer": "(a) C Rajgopalachari",
+    "correctAnswer_hi": "(a) सी. राजगोपालाचारी",
+    "explanation": "The Swatantra Party was founded in 1959 by C. Rajagopalachari to oppose the socialist policies of the Indian National Congress and promote free enterprise and individual liberty.",
+    "explanation_hi": "स्वातंत्र्य पार्टी की स्थापना 1959 में सी. राजगोपालाचारी द्वारा कांग्रेस की समाजवादी नीतियों के विरोध और मुक्त उद्यम तथा व्यक्तिगत स्वतंत्रता को बढ़ावा देने के लिए की गई थी।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "History",
+        "Polity",
+        "General Knowledge",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "3309723a-ad0d-4f56-bfa4-3c779f708831"
   }
 ]
