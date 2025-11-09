@@ -2113,5 +2113,603 @@
       "similarQuestions": []
     },
     "id": "3309723a-ad0d-4f56-bfa4-3c779f708831"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Bluetooth technology allows —"
+    },
+    "content_hi": {
+      "question": "ब्लूटूथ तकनीक की अनुमति देती है —"
+    },
+    "options": [
+      "(a) Sending files within the range of 10 kilometre",
+      "(b) Sending an email",
+      "(c) Wireless connection between devices or equipments over short distances",
+      "(d) Downloading of movies from internet"
+    ],
+    "options_hi": [
+      "(a) 10 किलोमीटर की सीमा के भीतर फ़ाइलें भेजना",
+      "(b) ईमेल भेजना",
+      "(c) उपकरणों के बीच अल्प दूरी पर वायरलेस कनेक्शन स्थापित करना",
+      "(d) इंटरनेट से फ़िल्में डाउनलोड करना"
+    ],
+    "correctAnswer": "(c) Wireless connection between devices or equipments over short distances",
+    "correctAnswer_hi": "(c) उपकरणों के बीच अल्प दूरी पर वायरलेस कनेक्शन स्थापित करना",
+    "explanation": "Bluetooth technology enables short-range wireless communication between devices such as phones, computers, and accessories. Its typical range is about 10 meters, not kilometres.",
+    "explanation_hi": "ब्लूटूथ तकनीक फ़ोन, कंप्यूटर और अन्य उपकरणों के बीच अल्प दूरी पर वायरलेस संचार की अनुमति देती है। इसकी सामान्य सीमा लगभग 10 मीटर होती है, न कि किलोमीटर।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Science",
+        "Technology",
+        "Factual",
+        "Conceptual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "a0421116-7b18-4614-abf2-5758670600df"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "question": "Which one of the following materials is not diamagnetic at Standard Temperature and Pressure (STP)?"
+    },
+    "content_hi": {
+      "question": "निम्नलिखित में से कौन-सा पदार्थ मानक तापमान और दाब (STP) पर डायामैग्नेटिक नहीं है?"
+    },
+    "options": [
+      "(a) Nitrogen",
+      "(b) Sodium chloride",
+      "(c) Water",
+      "(d) Iron"
+    ],
+    "options_hi": [
+      "(a) नाइट्रोजन",
+      "(b) सोडियम क्लोराइड",
+      "(c) जल",
+      "(d) लोहा"
+    ],
+    "correctAnswer": "(d) Iron",
+    "correctAnswer_hi": "(d) लोहा",
+    "explanation": "Iron is a ferromagnetic material, not diamagnetic. Diamagnetic materials are weakly repelled by magnetic fields, whereas ferromagnetic materials like iron are strongly attracted to them.",
+    "explanation_hi": "लोहा एक फेरोमैग्नेटिक पदार्थ है, डायामैग्नेटिक नहीं। डायामैग्नेटिक पदार्थ चुंबकीय क्षेत्र से हल्के रूप से विकर्षित होते हैं, जबकि फेरोमैग्नेटिक पदार्थ जैसे लोहा उनसे प्रबल रूप से आकर्षित होते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Science",
+        "Physics",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "f09aa545-e0d1-4b03-8325-2e152a5c2159"
+  },
+  {
+    "type": "statement-analysis",
+    "content": {
+      "title": "Newton’s Third Law and Earth-Moon System",
+      "prompt": "Consider the following statements:",
+      "statements": [
+        {
+          "label": "1",
+          "text": "The force on Moon due to Earth is the action, while the force on Earth due to Moon is the reaction."
+        },
+        {
+          "label": "2",
+          "text": "For every action, there is an equal and opposite reaction."
+        }
+      ],
+      "question": "Which one of the following is correct in respect of the above statements?"
+    },
+    "content_hi": {
+      "title": "न्यूटन का तृतीय नियम और पृथ्वी-चंद्रमा प्रणाली",
+      "prompt": "निम्नलिखित कथनों पर विचार कीजिए:",
+      "statements": [
+        {
+          "label": "1",
+          "text": "पृथ्वी के कारण चंद्रमा पर लगने वाला बल क्रिया है, जबकि चंद्रमा के कारण पृथ्वी पर लगने वाला बल प्रतिक्रिया है।"
+        },
+        {
+          "label": "2",
+          "text": "प्रत्येक क्रिया के लिए एक समान और विपरीत प्रतिक्रिया होती है।"
+        }
+      ],
+      "question": "उपरोक्त कथनों के संबंध में निम्नलिखित में से कौन-सा सही है?"
+    },
+    "options": [
+      "(a) Both statements are individually true and statement 2 is correct explanation of statement 1",
+      "(b) Both statements are individually true but statement 2 is not correct explanation of statement 1",
+      "(c) Statement 1 is true but statement 2 is false",
+      "(d) Statement 1 is false but statement 2 is true"
+    ],
+    "options_hi": [
+      "(a) दोनों कथन स्वतंत्र रूप से सत्य हैं और कथन 2 कथन 1 की सही व्याख्या है",
+      "(b) दोनों कथन स्वतंत्र रूप से सत्य हैं लेकिन कथन 2 कथन 1 की सही व्याख्या नहीं है",
+      "(c) कथन 1 सत्य है लेकिन कथन 2 असत्य है",
+      "(d) कथन 1 असत्य है लेकिन कथन 2 सत्य है"
+    ],
+    "correctAnswer": "(a) Both statements are individually true and statement 2 is correct explanation of statement 1",
+    "correctAnswer_hi": "(a) दोनों कथन स्वतंत्र रूप से सत्य हैं और कथन 2 कथन 1 की सही व्याख्या है",
+    "explanation": "According to Newton’s Third Law, for every action there is an equal and opposite reaction. The gravitational force between Earth and Moon is an example where both forces are equal in magnitude and opposite in direction.",
+    "explanation_hi": "न्यूटन के तृतीय नियम के अनुसार प्रत्येक क्रिया के लिए समान और विपरीत प्रतिक्रिया होती है। पृथ्वी और चंद्रमा के बीच का गुरुत्वाकर्षण बल इसका उदाहरण है जहाँ दोनों बल समान परिमाण के होते हैं परंतु दिशाएँ विपरीत होती हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Physics",
+        "Newton's Laws",
+        "Conceptual",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "fa3e5d15-5136-4cd7-9072-67d44363f8e7"
+  },
+  {
+    "type": "statement-analysis",
+    "content": {
+      "title": "Heat Transfer and Temperature Difference",
+      "prompt": "Consider the following statements:",
+      "statements": [
+        {
+          "label": "1",
+          "text": "It is a common observation that when we place a glass of ice-water on a table at room temperature, the ice-water will get warmer."
+        },
+        {
+          "label": "2",
+          "text": "Heat is energy that flows between a system and its environment because of temperature difference between them."
+        }
+      ],
+      "question": "Which one of the following is correct in respect of the above statements?"
+    },
+    "content_hi": {
+      "title": "ऊष्मा संचरण और तापमान का अंतर",
+      "prompt": "निम्नलिखित कथनों पर विचार कीजिए:",
+      "statements": [
+        {
+          "label": "1",
+          "text": "यह सामान्य अवलोकन है कि जब हम कमरे के तापमान पर मेज पर बर्फ-पानी का गिलास रखते हैं, तो बर्फ-पानी गर्म हो जाता है।"
+        },
+        {
+          "label": "2",
+          "text": "ऊष्मा वह ऊर्जा है जो तापमान के अंतर के कारण किसी तंत्र और उसके परिवेश के बीच प्रवाहित होती है।"
+        }
+      ],
+      "question": "उपरोक्त कथनों के संबंध में निम्नलिखित में से कौन-सा सही है?"
+    },
+    "options": [
+      "(a) Both statements are individually true and statement 2 is correct explanation of statement 1",
+      "(b) Both statements are individually true but statement 2 is not correct explanation of statement 1",
+      "(c) Statement 1 is true but statement 2 is false",
+      "(d) Statement 1 is false but statement 2 is true"
+    ],
+    "options_hi": [
+      "(a) दोनों कथन स्वतंत्र रूप से सत्य हैं और कथन 2 कथन 1 की सही व्याख्या है",
+      "(b) दोनों कथन स्वतंत्र रूप से सत्य हैं लेकिन कथन 2 कथन 1 की सही व्याख्या नहीं है",
+      "(c) कथन 1 सत्य है लेकिन कथन 2 असत्य है",
+      "(d) कथन 1 असत्य है लेकिन कथन 2 सत्य है"
+    ],
+    "correctAnswer": "(a) Both statements are individually true and statement 2 is correct explanation of statement 1",
+    "correctAnswer_hi": "(a) दोनों कथन स्वतंत्र रूप से सत्य हैं और कथन 2 कथन 1 की सही व्याख्या है",
+    "explanation": "When a glass of ice-water is placed at room temperature, heat flows from the warmer surroundings to the colder ice-water, causing it to warm up. This occurs because heat transfer takes place due to temperature difference, as defined in statement 2.",
+    "explanation_hi": "जब कमरे के तापमान पर बर्फ-पानी का गिलास रखा जाता है, तो ऊष्मा गर्म परिवेश से ठंडे बर्फ-पानी की ओर प्रवाहित होती है, जिससे वह गर्म हो जाता है। यह तापमान के अंतर के कारण ऊष्मा के प्रवाह का उदाहरण है जैसा कि कथन 2 में बताया गया है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Physics",
+        "Heat Transfer",
+        "Conceptual",
+        "Important",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "d90da133-4930-454b-a68c-51493a8b26a5"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Bluetooth Communication Range",
+      "question": "Bluetooth technology allows —"
+    },
+    "content_hi": {
+      "title": "ब्लूटूथ संचार सीमा",
+      "question": "ब्लूटूथ तकनीक की अनुमति देती है —"
+    },
+    "options": [
+      "(a) Sending files within the range of 10 kilometre",
+      "(b) Sending an email",
+      "(c) Wireless connection between devices or equipments over short distances",
+      "(d) Downloading of movies from internet"
+    ],
+    "options_hi": [
+      "(a) 10 किलोमीटर की सीमा के भीतर फ़ाइलें भेजना",
+      "(b) ईमेल भेजना",
+      "(c) उपकरणों के बीच अल्प दूरी पर वायरलेस कनेक्शन स्थापित करना",
+      "(d) इंटरनेट से फ़िल्में डाउनलोड करना"
+    ],
+    "correctAnswer": "(c) Wireless connection between devices or equipments over short distances",
+    "correctAnswer_hi": "(c) उपकरणों के बीच अल्प दूरी पर वायरलेस कनेक्शन स्थापित करना",
+    "explanation": "Bluetooth enables short-range wireless communication between devices, typically within about 10 meters, not kilometres.",
+    "explanation_hi": "ब्लूटूथ उपकरणों के बीच लगभग 10 मीटर की अल्प दूरी तक वायरलेस संचार सक्षम करता है, किलोमीटर नहीं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Science",
+        "Technology",
+        "Factual",
+        "Conceptual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "403396f3-03eb-489e-870a-b8b1146b98c2"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Magnetic Properties of Materials",
+      "question": "Which one of the following materials is not diamagnetic at Standard Temperature and Pressure (STP)?"
+    },
+    "content_hi": {
+      "title": "पदार्थों के चुंबकीय गुण",
+      "question": "निम्नलिखित में से कौन-सा पदार्थ मानक तापमान और दाब (STP) पर डायामैग्नेटिक नहीं है?"
+    },
+    "options": [
+      "(a) Nitrogen",
+      "(b) Sodium chloride",
+      "(c) Water",
+      "(d) Iron"
+    ],
+    "options_hi": [
+      "(a) नाइट्रोजन",
+      "(b) सोडियम क्लोराइड",
+      "(c) जल",
+      "(d) लोहा"
+    ],
+    "correctAnswer": "(d) Iron",
+    "correctAnswer_hi": "(d) लोहा",
+    "explanation": "Iron is ferromagnetic, not diamagnetic. Ferromagnetic materials are strongly attracted to magnetic fields.",
+    "explanation_hi": "लोहा फेरोमैग्नेटिक होता है, डायामैग्नेटिक नहीं। फेरोमैग्नेटिक पदार्थ चुंबकीय क्षेत्र से प्रबल रूप से आकर्षित होते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Science",
+        "Physics",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "49f5a986-4b6f-49c7-ac15-9864e3109eb9"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Gas Solubility in Water",
+      "question": "Which one of the following gases has the highest solubility in water?"
+    },
+    "content_hi": {
+      "title": "पानी में गैसों की विलेयता",
+      "question": "निम्नलिखित में से कौन-सी गैस पानी में सर्वाधिक विलेयता रखती है?"
+    },
+    "options": [
+      "(a) Chlorine",
+      "(b) Ammonia",
+      "(c) Carbon dioxide",
+      "(d) Nitrogen"
+    ],
+    "options_hi": [
+      "(a) क्लोरीन",
+      "(b) अमोनिया",
+      "(c) कार्बन डाइऑक्साइड",
+      "(d) नाइट्रोजन"
+    ],
+    "correctAnswer": "(b) Ammonia",
+    "correctAnswer_hi": "(b) अमोनिया",
+    "explanation": "Ammonia is highly soluble in water due to hydrogen bonding and formation of ammonium hydroxide.",
+    "explanation_hi": "अमोनिया पानी में अत्यधिक विलेय है क्योंकि यह हाइड्रोजन बंध बनाता है और अमोनियम हाइड्रॉक्साइड का निर्माण करता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Chemistry",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "22e7ada7-9640-48e0-9a4d-31f3e2ef77b7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Composition of Bleaching Powder",
+      "question": "Bleaching powder contains —"
+    },
+    "content_hi": {
+      "title": "ब्लीचिंग पाउडर की संरचना",
+      "question": "ब्लीचिंग पाउडर में क्या होता है —"
+    },
+    "options": [
+      "(a) Nitrogen",
+      "(b) Iodine",
+      "(c) Chlorine",
+      "(d) Bromine"
+    ],
+    "options_hi": [
+      "(a) नाइट्रोजन",
+      "(b) आयोडीन",
+      "(c) क्लोरीन",
+      "(d) ब्रोमीन"
+    ],
+    "correctAnswer": "(c) Chlorine",
+    "correctAnswer_hi": "(c) क्लोरीन",
+    "explanation": "Bleaching powder (CaOCl₂) contains chlorine, responsible for its bleaching and disinfectant action.",
+    "explanation_hi": "ब्लीचिंग पाउडर (CaOCl₂) में क्लोरीन होता है, जो इसके विरंजन और कीटाणुनाशक गुणों के लिए जिम्मेदार है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "General Knowledge",
+        "Chemistry",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "c5c8a509-578b-4875-b4f9-96caa6d61616"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Causal Agent of Chikungunya",
+      "question": "What is the causal agent of Chikungunya?"
+    },
+    "content_hi": {
+      "title": "चिकनगुनिया का कारण",
+      "question": "चिकनगुनिया का कारक क्या है?"
+    },
+    "options": [
+      "(a) Non chlorophyllous bacterium",
+      "(b) Nematode",
+      "(c) Virus",
+      "(d) Fungi"
+    ],
+    "options_hi": [
+      "(a) बिना क्लोरोफिल वाला जीवाणु",
+      "(b) नेमाटोड",
+      "(c) विषाणु",
+      "(d) कवक"
+    ],
+    "correctAnswer": "(c) Virus",
+    "correctAnswer_hi": "(c) विषाणु",
+    "explanation": "Chikungunya is caused by the Chikungunya virus, transmitted by Aedes mosquitoes.",
+    "explanation_hi": "चिकनगुनिया का कारण चिकनगुनिया विषाणु है, जो एडीज मच्छरों द्वारा फैलता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Biology",
+        "Health",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "6953ec8d-702e-42d3-8305-943aa058df5a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Application of Bioremediation",
+      "question": "Bioremediation is a technology which is being extensively used in controlling —"
+    },
+    "content_hi": {
+      "title": "बायोरिमेडिएशन का उपयोग",
+      "question": "बायोरिमेडिएशन एक ऐसी तकनीक है जिसका व्यापक रूप से उपयोग किसे नियंत्रित करने में किया जा रहा है —"
+    },
+    "options": [
+      "(a) Global warming",
+      "(b) Melting of glaciers",
+      "(c) Ozone depletion",
+      "(d) Heavy metal pollutions"
+    ],
+    "options_hi": [
+      "(a) वैश्विक ऊष्मीकरण",
+      "(b) हिमनदों का पिघलना",
+      "(c) ओज़ोन परत का क्षय",
+      "(d) भारी धातु प्रदूषण"
+    ],
+    "correctAnswer": "(d) Heavy metal pollutions",
+    "correctAnswer_hi": "(d) भारी धातु प्रदूषण",
+    "explanation": "Bioremediation uses microorganisms to degrade or remove toxic pollutants like heavy metals from soil and water.",
+    "explanation_hi": "बायोरिमेडिएशन में सूक्ष्मजीवों का उपयोग मिट्टी और जल से भारी धातुओं जैसे प्रदूषकों को अपघटित या हटाने के लिए किया जाता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Environment",
+        "Biotechnology",
+        "Pollution Control",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "109512a6-23ad-4bed-882a-8b61ef152ebb"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Effect of Lichens on Monuments",
+      "question": "Beauty of some historical monuments is greatly affected by growth of certain living organisms. These living organisms belong to which one of the following groups?"
+    },
+    "content_hi": {
+      "title": "स्मारकों पर लाइकेन का प्रभाव",
+      "question": "कुछ ऐतिहासिक स्मारकों की सुंदरता कुछ जीवित जीवों की वृद्धि से बहुत प्रभावित होती है। ये जीवित जीव निम्नलिखित में से किस समूह से संबंधित हैं?"
+    },
+    "options": [
+      "(a) Lichens",
+      "(b) Amphibious plants",
+      "(c) Bacteria",
+      "(d) Viruses"
+    ],
+    "options_hi": [
+      "(a) लाइकेन",
+      "(b) उभयचर पौधे",
+      "(c) जीवाणु",
+      "(d) विषाणु"
+    ],
+    "correctAnswer": "(a) Lichens",
+    "correctAnswer_hi": "(a) लाइकेन",
+    "explanation": "Lichens secrete acids that corrode stone surfaces of monuments, damaging their beauty.",
+    "explanation_hi": "लाइकेन ऐसे अम्ल स्रावित करते हैं जो स्मारकों के पत्थरों को क्षरण कर उनकी सुंदरता को नष्ट करते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Environment",
+        "Biology",
+        "Heritage Conservation",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "dd593419-4f24-42a5-9a4f-6928670bdf4a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Plant and Animal Traits in Euglena",
+      "question": "Which one of the following has the characteristics of both animal as well as plant?"
+    },
+    "content_hi": {
+      "title": "यूग्लीना में पौधों और जन्तुओं के गुण",
+      "question": "निम्नलिखित में से किसमें पौधों और जन्तुओं दोनों के गुण पाए जाते हैं?"
+    },
+    "options": [
+      "(a) Moss",
+      "(b) Earth worm",
+      "(c) Euglena",
+      "(d) Fern"
+    ],
+    "options_hi": [
+      "(a) काई",
+      "(b) केंचुआ",
+      "(c) यूग्लीना",
+      "(d) फर्न"
+    ],
+    "correctAnswer": "(c) Euglena",
+    "correctAnswer_hi": "(c) यूग्लीना",
+    "explanation": "Euglena performs photosynthesis like plants and moves with a flagellum like animals, showing both traits.",
+    "explanation_hi": "यूग्लीना पौधों की तरह प्रकाश संश्लेषण करता है और जन्तुओं की तरह फ्लैजेलम से गति करता है, इस प्रकार दोनों के गुण प्रदर्शित करता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Biology",
+        "Microorganisms",
+        "Factual",
+        "Conceptual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "c3585a7e-9da5-4a50-8f26-57747b955742"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Protection of Stored Grains",
+      "question": "In order to save the stored food grains from insects, farmers usually mix with them —"
+    },
+    "content_hi": {
+      "title": "भंडारित अनाज की सुरक्षा",
+      "question": "भंडारित अनाज को कीड़ों से बचाने के लिए किसान सामान्यतः उसमें क्या मिलाते हैं —"
+    },
+    "options": [
+      "(a) Neem leaves",
+      "(b) Mango leaves",
+      "(c) Peepal leaves",
+      "(d) Orange leaves"
+    ],
+    "options_hi": [
+      "(a) नीम की पत्तियाँ",
+      "(b) आम की पत्तियाँ",
+      "(c) पीपल की पत्तियाँ",
+      "(d) संतरे की पत्तियाँ"
+    ],
+    "correctAnswer": "(a) Neem leaves",
+    "correctAnswer_hi": "(a) नीम की पत्तियाँ",
+    "explanation": "Neem leaves are mixed with stored grains because their natural insecticidal properties repel pests and prevent spoilage.",
+    "explanation_hi": "नीम की पत्तियाँ प्राकृतिक कीटनाशी गुणों के कारण कीटों को भगाती हैं और अनाज को खराब होने से बचाती हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Environment",
+        "Agriculture",
+        "Biology",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "6fb0f539-1615-4ced-a84c-50b901ab0e31"
   }
 ]
