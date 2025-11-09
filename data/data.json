@@ -1,0 +1,90 @@
+[
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Militant Nationalist Leaders in India",
+      "question": "Who among the following did not represent the militant nationalist school of thought in India?"
+    },
+    "content_hi": {
+      "title": "भारत में उग्र राष्ट्रवादी नेताओं से संबंधित प्रश्न",
+      "question": "निम्नलिखित में से किसने भारत में उग्र राष्ट्रवादी विचारधारा का प्रतिनिधित्व नहीं किया?"
+    },
+    "options": [
+      "(a) Ashwini Kumar Dutt",
+      "(b) Vishnushastri Chiplunkar",
+      "(c) Krishna Kumar Mitra",
+      "(d) Lala Lajpat Rai"
+    ],
+    "options_hi": [
+      "(a) अश्विनी कुमार दत्त",
+      "(b) विष्णुशास्त्री चिपलुंकर",
+      "(c) कृष्ण कुमार मित्र",
+      "(d) लाला लाजपत राय"
+    ],
+    "correctAnswer": "(c) Krishna Kumar Mitra",
+    "correctAnswer_hi": "(c) कृष्ण कुमार मित्र",
+    "explanation": "Krishna Kumar Mitra was a moderate nationalist, whereas the others were associated with the militant nationalist movement that emerged during the early 20th century.",
+    "explanation_hi": "कृष्ण कुमार मित्र एक उदारवादी राष्ट्रवादी थे, जबकि अन्य लोग 20वीं शताब्दी की शुरुआत में उग्र राष्ट्रवादी आंदोलन से जुड़े हुए थे।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "History",
+        "Modern History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "EPFO",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "a92f2c7a-6a34-454e-a2eb-eaa2c29398bb"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Formation of the Social Service League in Bombay (1911)",
+      "question": "In the year 1911, who among the following formed the Social Service League in Bombay?"
+    },
+    "content_hi": {
+      "title": "बॉम्बे में सोशल सर्विस लीग की स्थापना (1911)",
+      "question": "सन् 1911 में बॉम्बे में सोशल सर्विस लीग की स्थापना किसने की थी?"
+    },
+    "options": [
+      "(a) G K Gokhale",
+      "(b) S A Dange",
+      "(c) N M Joshi",
+      "(d) M R Jaykar"
+    ],
+    "options_hi": [
+      "(a) जी. के. गोखले",
+      "(b) एस. ए. डांगे",
+      "(c) एन. एम. जोशी",
+      "(d) एम. आर. जयकर"
+    ],
+    "correctAnswer": "(c) N M Joshi",
+    "correctAnswer_hi": "(c) एन. एम. जोशी",
+    "explanation": "The Social Service League was founded in 1911 by N. M. Joshi in Bombay to promote social welfare and civic responsibility among the people.",
+    "explanation_hi": "सोशल सर्विस लीग की स्थापना 1911 में एन. एम. जोशी द्वारा बॉम्बे में की गई थी, जिसका उद्देश्य लोगों में सामाजिक कल्याण और नागरिक जिम्मेदारी को बढ़ावा देना था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "History",
+        "Modern History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "EPFO",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "d515cec2-04e9-4970-93ef-e8c925508e00"
+  }
+]
