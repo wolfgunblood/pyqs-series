@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 
 import { Button } from "@/components/ui/button";
-import questions from "@/data/data.json";
 
 function normalizeQuestion(question, index) {
   const fallbackTitle =
@@ -26,13 +25,13 @@ function normalizeQuestion(question, index) {
   };
 }
 
-export function ProblemDashboard() {
+export function ProblemDashboard({ questions = [] }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   const problems = useMemo(
     () =>
       questions.map((question, index) => normalizeQuestion(question, index)),
-    [],
+    [questions],
   );
 
   const filtered = problems.filter((problem) => {
