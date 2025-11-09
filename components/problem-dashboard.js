@@ -105,6 +105,38 @@ export function ProblemDashboard({ questions = [] }) {
           : null}
       </div>
 
+      {filtered.length > 0
+        ? <div className="flex flex-col justify-between gap-3 rounded-lg bg-white p-4 text-sm text-gray-600 shadow-sm sm:flex-row sm:items-center">
+            <div>
+              Page {safePage} of {totalPages} | Showing up to {PAGE_SIZE} per
+              page
+            </div>
+            <div className="flex items-center gap-3">
+              <Button
+                variant="outline"
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.max(1, page - 1))}
+                disabled={safePage === 1}
+              >
+                Previous
+              </Button>
+              <span className="text-xs uppercase tracking-wide text-gray-500">
+                {startDisplay}-{endDisplay}
+              </span>
+              <Button
+                variant="outline"
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.min(totalPages, page + 1))}
+                disabled={safePage === totalPages || filtered.length === 0}
+              >
+                Next
+              </Button>
+            </div>
+          </div>
+        : null}
+
       <ul className="space-y-3">
         {filtered.length === 0
           ? <li className="rounded-lg border border-dashed border-gray-300 bg-white p-6 text-sm text-gray-500">
@@ -150,38 +182,6 @@ export function ProblemDashboard({ questions = [] }) {
               </li>
             ))}
       </ul>
-
-      {filtered.length > 0
-        ? <div className="flex flex-col justify-between gap-3 border-t border-gray-200 pt-4 text-sm text-gray-600 sm:flex-row sm:items-center">
-            <div>
-              Page {safePage} of {totalPages} | Showing up to {PAGE_SIZE} per
-              page
-            </div>
-            <div className="flex items-center gap-3">
-              <Button
-                variant="outline"
-                type="button"
-                onClick={() =>
-                  setCurrentPage((page) => Math.max(1, page - 1))}
-                disabled={safePage === 1}
-              >
-                Previous
-              </Button>
-              <span className="text-xs uppercase tracking-wide text-gray-500">
-                {startDisplay}-{endDisplay}
-              </span>
-              <Button
-                variant="outline"
-                type="button"
-                onClick={() =>
-                  setCurrentPage((page) => Math.min(totalPages, page + 1))}
-                disabled={safePage === totalPages || filtered.length === 0}
-              >
-                Next
-              </Button>
-            </div>
-          </div>
-        : null}
     </div>
   );
 }

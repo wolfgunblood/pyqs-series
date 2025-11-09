@@ -1604,5 +1604,93 @@
       "similarQuestions": []
     },
     "id": "ccc8e991-e98e-424e-9190-aed02c62b6bd"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Scheme for Direct Benefit Transfer to LPG Customers",
+      "question": "Which one of the following is the name of the scheme introduced as a well-targeted system of service delivery to LPG customers?"
+    },
+    "content_hi": {
+      "title": "एलपीजी ग्राहकों के लिए प्रत्यक्ष लाभ अंतरण (DBT) योजना",
+      "question": "एलपीजी ग्राहकों को लक्षित सेवा वितरण प्रणाली के रूप में शुरू की गई योजना का नाम निम्नलिखित में से कौन-सा है?"
+    },
+    "options": [
+      "(a) SAHAJ",
+      "(b) PAHAL",
+      "(c) UDAY",
+      "(d) UDAN"
+    ],
+    "options_hi": [
+      "(a) सहज",
+      "(b) पहल",
+      "(c) उदय",
+      "(d) उड़ान"
+    ],
+    "correctAnswer": "(b) PAHAL",
+    "correctAnswer_hi": "(b) पहल",
+    "explanation": "The PAHAL (Pratyaksha Hastaantarit Laabh) scheme is the Direct Benefit Transfer (DBT) system for LPG customers, ensuring that the subsidy on LPG is transferred directly to the consumer’s bank account to eliminate leakages and ensure transparency.",
+    "explanation_hi": "पहल (प्रत्यक्ष हस्तांतरित लाभ) योजना एलपीजी ग्राहकों के लिए प्रत्यक्ष लाभ अंतरण (DBT) प्रणाली है, जिसके तहत एलपीजी पर सब्सिडी सीधे उपभोक्ता के बैंक खाते में भेजी जाती है ताकि पारदर्शिता सुनिश्चित हो और रिसाव रोका जा सके।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Economics",
+        "Schemes",
+        "Current Affairs",
+        "Prelims",
+        "Previous Year"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "cf635ffb-769d-4005-95bb-b773da193456"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Human Female Reproductive Organs",
+      "question": "Which one of the following is not a female reproductive organ in humans?"
+    },
+    "content_hi": {
+      "title": "मानव स्त्री प्रजनन अंग",
+      "question": "निम्नलिखित में से कौन मानव स्त्री प्रजनन अंग नहीं है?"
+    },
+    "options": [
+      "(a) Ovaries",
+      "(b) Oviducts",
+      "(c) Cervix",
+      "(d) Stamen"
+    ],
+    "options_hi": [
+      "(a) अंडाशय",
+      "(b) अंडवाहिनी",
+      "(c) गर्भाशय ग्रीवा",
+      "(d) पुंकेसर"
+    ],
+    "correctAnswer": "(d) Stamen",
+    "correctAnswer_hi": "(d) पुंकेसर",
+    "explanation": "Stamen is the male reproductive organ of a flower, not a part of the human female reproductive system. Ovaries, oviducts, and cervix are organs of the human female reproductive system.",
+    "explanation_hi": "पुंकेसर फूल का नर प्रजनन अंग होता है, यह मानव स्त्री प्रजनन तंत्र का भाग नहीं है। अंडाशय, अंडवाहिनी और गर्भाशय ग्रीवा मानव स्त्री प्रजनन अंग हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "science_technology",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Science",
+        "Biology",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "22f5a398-b548-406b-ba5c-f40ee9cd706a"
   }
 ]
