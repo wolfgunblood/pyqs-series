@@ -1,7 +1,7 @@
 ﻿"use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 
@@ -25,8 +25,11 @@ function normalizeQuestion(question, index) {
   };
 }
 
+const PAGE_SIZE = 10;
+
 export function ProblemDashboard({ questions = [] }) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
 
   const problems = useMemo(
     () =>
@@ -34,15 +37,31 @@ export function ProblemDashboard({ questions = [] }) {
     [questions],
   );
 
-  const filtered = problems.filter((problem) => {
+  const filtered = useMemo(() => {
     if (!searchTerm.trim()) {
-      return true;
+      return problems;
     }
 
-    const haystack =
-      `${problem.title} ${problem.prompt} ${problem.subject} ${problem.difficulty}`.toLowerCase();
-    return haystack.includes(searchTerm.trim().toLowerCase());
-  });
+    return problems.filter((problem) => {
+      const haystack =
+        `${problem.title} ${problem.prompt} ${problem.subject} ${problem.difficulty}`.toLowerCase();
+      return haystack.includes(searchTerm.trim().toLowerCase());
+    });
+  }, [problems, searchTerm]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+
+  useEffect(() => {
+    setCurrentPage((prev) => Math.min(prev, totalPages));
+  }, [totalPages]);
+
+  const safePage = Math.min(currentPage, totalPages);
+  const pageStart = (safePage - 1) * PAGE_SIZE;
+  const visibleProblems = filtered.slice(pageStart, pageStart + PAGE_SIZE);
+  const displayedCount = visibleProblems.length;
+  const startDisplay = filtered.length === 0 ? 0 : pageStart + 1;
+  const endDisplay =
+    filtered.length === 0 ? 0 : pageStart + displayedCount;
 
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-10">
@@ -54,9 +73,13 @@ export function ProblemDashboard({ questions = [] }) {
           Browse every saved question
         </h1>
         <p className="text-sm text-gray-600">
-          Showing {filtered.length} of {problems.length} stored entries. Use the
-          search box to instantly filter by title, prompt, subject, or
-          difficulty.
+          Showing{" "}
+          {filtered.length === 0
+            ? 0
+            : `${startDisplay}-${endDisplay}`}{" "}
+          of {filtered.length} matching entries (out of {problems.length} stored
+          items). Use the search box to instantly filter by title, prompt,
+          subject, or difficulty.
         </p>
       </header>
 
@@ -64,7 +87,10 @@ export function ProblemDashboard({ questions = [] }) {
         <input
           type="search"
           value={searchTerm}
-          onChange={(event) => setSearchTerm(event.target.value)}
+          onChange={(event) => {
+            setSearchTerm(event.target.value);
+            setCurrentPage(1);
+          }}
           placeholder="Search by keyword, subject, or difficulty"
           className="flex-1 rounded-md border border-gray-300 px-3 py-2 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
         />
@@ -85,7 +111,7 @@ export function ProblemDashboard({ questions = [] }) {
               No questions match your search. Try a different phrase or clear
               the filter.
             </li>
-          : filtered.map((problem) => (
+          : visibleProblems.map((problem) => (
               <li
                 key={problem.id}
                 className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm"
@@ -124,6 +150,38 @@ export function ProblemDashboard({ questions = [] }) {
               </li>
             ))}
       </ul>
+
+      {filtered.length > 0
+        ? <div className="flex flex-col justify-between gap-3 border-t border-gray-200 pt-4 text-sm text-gray-600 sm:flex-row sm:items-center">
+            <div>
+              Page {safePage} of {totalPages} | Showing up to {PAGE_SIZE} per
+              page
+            </div>
+            <div className="flex items-center gap-3">
+              <Button
+                variant="outline"
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.max(1, page - 1))}
+                disabled={safePage === 1}
+              >
+                Previous
+              </Button>
+              <span className="text-xs uppercase tracking-wide text-gray-500">
+                {startDisplay}-{endDisplay}
+              </span>
+              <Button
+                variant="outline"
+                type="button"
+                onClick={() =>
+                  setCurrentPage((page) => Math.min(totalPages, page + 1))}
+                disabled={safePage === totalPages || filtered.length === 0}
+              >
+                Next
+              </Button>
+            </div>
+          </div>
+        : null}
     </div>
   );
 }

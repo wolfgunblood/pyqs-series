@@ -2,11 +2,11 @@
   {
     "type": "simple-multiple-choice",
     "content": {
-      "title": "Militant Nationalist Leaders in India",
+      "title": "Militant Nationalist Leaders in Indian Freedom Movement",
       "question": "Who among the following did not represent the militant nationalist school of thought in India?"
     },
     "content_hi": {
-      "title": "भारत में उग्र राष्ट्रवादी नेताओं से संबंधित प्रश्न",
+      "title": "भारतीय स्वतंत्रता आंदोलन में उग्र राष्ट्रवादी नेता",
       "question": "निम्नलिखित में से किसने भारत में उग्र राष्ट्रवादी विचारधारा का प्रतिनिधित्व नहीं किया?"
     },
     "options": [
@@ -23,25 +23,25 @@
     ],
     "correctAnswer": "(c) Krishna Kumar Mitra",
     "correctAnswer_hi": "(c) कृष्ण कुमार मित्र",
-    "explanation": "Krishna Kumar Mitra was a moderate nationalist, whereas the others were associated with the militant nationalist movement that emerged during the early 20th century.",
-    "explanation_hi": "कृष्ण कुमार मित्र एक उदारवादी राष्ट्रवादी थे, जबकि अन्य लोग 20वीं शताब्दी की शुरुआत में उग्र राष्ट्रवादी आंदोलन से जुड़े हुए थे।",
+    "explanation": "Krishna Kumar Mitra was a moderate nationalist, not a militant nationalist like Lala Lajpat Rai, Vishnushastri Chiplunkar, or Ashwini Kumar Dutt.",
+    "explanation_hi": "कृष्ण कुमार मित्र एक उदारवादी राष्ट्रवादी थे, उग्र राष्ट्रवादी नहीं, जैसे लाला लाजपत राय, विष्णुशास्त्री चिपलुंकर या अश्विनी कुमार दत्त।",
     "metadata": {
       "difficulty": "easy",
       "subject": "modern_history",
       "tags": [
         "UPSC",
-        "EPFO",
+        "Defense",
         "History",
-        "Modern History",
         "Prelims",
         "Previous Year",
-        "Factual"
+        "Factual",
+        "Conceptual"
       ],
-      "exam": "EPFO",
+      "exam": "upsc_epfo",
       "year": "2021",
       "similarQuestions": []
     },
-    "id": "a92f2c7a-6a34-454e-a2eb-eaa2c29398bb"
+    "id": "ffe110bd-3798-4496-823f-3255212ae6ce"
   },
   {
     "type": "simple-multiple-choice",
@@ -51,13 +51,13 @@
     },
     "content_hi": {
       "title": "बॉम्बे में सोशल सर्विस लीग की स्थापना (1911)",
-      "question": "सन् 1911 में बॉम्बे में सोशल सर्विस लीग की स्थापना किसने की थी?"
+      "question": "सन् 1911 में बॉम्बे में 'सोशल सर्विस लीग' की स्थापना किसने की थी?"
     },
     "options": [
-      "(a) G K Gokhale",
-      "(b) S A Dange",
-      "(c) N M Joshi",
-      "(d) M R Jaykar"
+      "(a) G. K. Gokhale",
+      "(b) S. A. Dange",
+      "(c) N. M. Joshi",
+      "(d) M. R. Jaykar"
     ],
     "options_hi": [
       "(a) जी. के. गोखले",
@@ -65,26 +65,853 @@
       "(c) एन. एम. जोशी",
       "(d) एम. आर. जयकर"
     ],
-    "correctAnswer": "(c) N M Joshi",
+    "correctAnswer": "(c) N. M. Joshi",
     "correctAnswer_hi": "(c) एन. एम. जोशी",
-    "explanation": "The Social Service League was founded in 1911 by N. M. Joshi in Bombay to promote social welfare and civic responsibility among the people.",
-    "explanation_hi": "सोशल सर्विस लीग की स्थापना 1911 में एन. एम. जोशी द्वारा बॉम्बे में की गई थी, जिसका उद्देश्य लोगों में सामाजिक कल्याण और नागरिक जिम्मेदारी को बढ़ावा देना था।",
+    "explanation": "The Social Service League was founded by N. M. Joshi in 1911 in Bombay to promote social welfare activities and train workers for social service.",
+    "explanation_hi": "सोशल सर्विस लीग की स्थापना 1911 में एन. एम. जोशी ने बॉम्बे में सामाजिक कल्याण कार्यों को प्रोत्साहित करने और सामाजिक सेवा के लिए कार्यकर्ताओं को प्रशिक्षित करने हेतु की थी।",
     "metadata": {
       "difficulty": "easy",
       "subject": "modern_history",
       "tags": [
         "UPSC",
-        "EPFO",
+        "Defense",
         "History",
-        "Modern History",
         "Prelims",
         "Previous Year",
         "Factual"
       ],
-      "exam": "EPFO",
+      "exam": "upsc_epfo",
       "year": "2021",
       "similarQuestions": []
     },
-    "id": "d515cec2-04e9-4970-93ef-e8c925508e00"
+    "id": "6c0f6101-2f0e-482e-b1e3-5c8db5f64b5f"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "The 'No-Changers' Faction in the Indian National Congress",
+      "question": "Who among the following was not part of the group of 'no-changers' in the Congress party?"
+    },
+    "content_hi": {
+      "title": "भारतीय राष्ट्रीय कांग्रेस में 'नो-चेंजर्स' गुट",
+      "question": "निम्नलिखित में से कौन कांग्रेस पार्टी के 'नो-चेंजर्स' समूह का हिस्सा नहीं था?"
+    },
+    "options": [
+      "(a) Sardar Vallabhbhai Patel",
+      "(b) Dr Ansari",
+      "(c) Babu Rajendra Prasad",
+      "(d) Motilal Nehru"
+    ],
+    "options_hi": [
+      "(a) सरदार वल्लभभाई पटेल",
+      "(b) डॉ. अंसारी",
+      "(c) बाबू राजेंद्र प्रसाद",
+      "(d) मोतीलाल नेहरू"
+    ],
+    "correctAnswer": "(d) Motilal Nehru",
+    "correctAnswer_hi": "(d) मोतीलाल नेहरू",
+    "explanation": "The 'no-changers' were Congress leaders who opposed council entry after the Non-Cooperation Movement. Leaders like Sardar Vallabhbhai Patel, Dr. Ansari, and Rajendra Prasad supported this view, while Motilal Nehru joined the 'pro-changers' group and formed the Swaraj Party with C. R. Das.",
+    "explanation_hi": "'नो-चेंजर्स' वे कांग्रेस नेता थे जिन्होंने असहयोग आंदोलन के बाद परिषदों में प्रवेश का विरोध किया। सरदार वल्लभभाई पटेल, डॉ. अंसारी और राजेंद्र प्रसाद इस गुट में थे, जबकि मोतीलाल नेहरू 'प्रो-चेंजर्स' गुट में शामिल होकर सी. आर. दास के साथ स्वराज पार्टी की स्थापना की।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Analytical"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "ef866c5c-8c5c-4341-a52b-e2467c19523a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Members of the Cabinet Mission to India (1946)",
+      "question": "Who among the following was not a member of the Cabinet Mission?"
+    },
+    "content_hi": {
+      "title": "भारत भेजे गए कैबिनेट मिशन (1946) के सदस्य",
+      "question": "निम्नलिखित में से कौन कैबिनेट मिशन का सदस्य नहीं था?"
+    },
+    "options": [
+      "(a) Pethick Lawrence",
+      "(b) Stafford Cripps",
+      "(c) A. V. Alexander",
+      "(d) Lord Wavell"
+    ],
+    "options_hi": [
+      "(a) पथिक लॉरेंस",
+      "(b) स्टैफर्ड क्रिप्स",
+      "(c) ए. वी. अलेक्जेंडर",
+      "(d) लॉर्ड वेवेल"
+    ],
+    "correctAnswer": "(d) Lord Wavell",
+    "correctAnswer_hi": "(d) लॉर्ड वेवेल",
+    "explanation": "The Cabinet Mission of 1946 included Pethick Lawrence, Stafford Cripps, and A. V. Alexander. Lord Wavell was the Viceroy of India at that time but not a member of the Mission.",
+    "explanation_hi": "1946 का कैबिनेट मिशन पथिक लॉरेंस, स्टैफर्ड क्रिप्स और ए. वी. अलेक्जेंडर से मिलकर बना था। लॉर्ड वेवेल उस समय भारत के वायसराय थे, लेकिन मिशन के सदस्य नहीं थे।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "78e9560f-ae4e-4bef-a7ee-211a2bca955a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Lok Sabha Speakers Who Resigned from Political Party After Election",
+      "question": "Who among the following Speakers of Lok Sabha formally disassociated from the political party after his election as the Speaker?"
+    },
+    "content_hi": {
+      "title": "लोकसभा अध्यक्ष जिन्होंने निर्वाचन के बाद राजनीतिक दल से औपचारिक रूप से अलगाव किया",
+      "question": "निम्नलिखित में से किस लोकसभा अध्यक्ष ने निर्वाचन के बाद अपने राजनीतिक दल से औपचारिक रूप से अलगाव किया था?"
+    },
+    "options": [
+      "(a) G. V. Mavalankar",
+      "(b) Sardar Hukam Singh",
+      "(c) Neelam Sanjiva Reddy",
+      "(d) P. A. Sangma"
+    ],
+    "options_hi": [
+      "(a) जी. वी. मावलंकर",
+      "(b) सरदार हुकम सिंह",
+      "(c) नीलम संजीव रेड्डी",
+      "(d) पी. ए. संगमा"
+    ],
+    "correctAnswer": "(c) Neelam Sanjiva Reddy",
+    "correctAnswer_hi": "(c) नीलम संजीव रेड्डी",
+    "explanation": "Neelam Sanjiva Reddy, after being elected as the Speaker of the Lok Sabha, formally resigned from the Indian National Congress to maintain the impartiality of the Speaker’s office.",
+    "explanation_hi": "नीलम संजीव रेड्डी ने लोकसभा अध्यक्ष चुने जाने के बाद भारतीय राष्ट्रीय कांग्रेस से औपचारिक रूप से इस्तीफा दिया ताकि अध्यक्ष के पद की निष्पक्षता बनी रहे।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Polity",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "2d6f9144-6dbe-426a-aa16-80f170951853"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Origin of International Mother Language Day",
+      "question": "UNESCO has been observing February 21 as the International Mother Language Day since 2000. The idea to celebrate the International Mother Language Day was the initiative of which of the following nations?"
+    },
+    "content_hi": {
+      "title": "अंतर्राष्ट्रीय मातृभाषा दिवस की उत्पत्ति",
+      "question": "यूनेस्को 2000 से 21 फरवरी को अंतर्राष्ट्रीय मातृभाषा दिवस के रूप में मना रहा है। इस दिवस को मनाने का विचार निम्नलिखित में से किस देश की पहल थी?"
+    },
+    "options": [
+      "(a) Sri Lanka",
+      "(b) Bangladesh",
+      "(c) India",
+      "(d) Nepal"
+    ],
+    "options_hi": [
+      "(a) श्रीलंका",
+      "(b) बांग्लादेश",
+      "(c) भारत",
+      "(d) नेपाल"
+    ],
+    "correctAnswer": "(b) Bangladesh",
+    "correctAnswer_hi": "(b) बांग्लादेश",
+    "explanation": "The idea to celebrate International Mother Language Day originated from Bangladesh, commemorating the 1952 Bengali Language Movement in which students sacrificed their lives for the recognition of Bangla as an official language.",
+    "explanation_hi": "अंतर्राष्ट्रीय मातृभाषा दिवस मनाने का विचार बांग्लादेश से उत्पन्न हुआ था। यह 1952 के बांग्ला भाषा आंदोलन की स्मृति में मनाया जाता है, जिसमें छात्रों ने बांग्ला को आधिकारिक भाषा के रूप में मान्यता दिलाने के लिए अपने प्राणों की आहुति दी थी।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Art & Culture",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "5e96b0eb-8ea0-4a4f-8f54-fb3dfdd1ca6f"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "First Woman Director-General of the World Trade Organization (WTO)",
+      "question": "Dr. Ngozi Okonjo-Iweala was recently selected as the first woman Director-General of the WTO. She hails from which one of the following countries?"
+    },
+    "content_hi": {
+      "title": "विश्व व्यापार संगठन (WTO) की पहली महिला महानिदेशक",
+      "question": "डॉ. न्गोजी ओकोंजो-इवेला हाल ही में WTO की पहली महिला महानिदेशक चुनी गई हैं। वह निम्नलिखित में से किस देश की हैं?"
+    },
+    "options": [
+      "(a) Japan",
+      "(b) Ethiopia",
+      "(c) Nigeria",
+      "(d) Egypt"
+    ],
+    "options_hi": [
+      "(a) जापान",
+      "(b) इथियोपिया",
+      "(c) नाइजीरिया",
+      "(d) मिस्र"
+    ],
+    "correctAnswer": "(c) Nigeria",
+    "correctAnswer_hi": "(c) नाइजीरिया",
+    "explanation": "Dr. Ngozi Okonjo-Iweala, an economist and former Nigerian finance minister, became the first woman and first African to serve as the Director-General of the World Trade Organization in 2021.",
+    "explanation_hi": "डॉ. न्गोजी ओकोंजो-इवेला, जो एक अर्थशास्त्री और नाइजीरिया की पूर्व वित्त मंत्री हैं, 2021 में विश्व व्यापार संगठन की पहली महिला और पहली अफ्रीकी महानिदेशक बनीं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "international_relations",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Current Affairs",
+        "International Relations",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "723c6238-b378-47f2-8aee-7afa4c973fb5"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Kaladan Multi-Modal Transit Transport Project Connectivity",
+      "question": "The Kaladan Multi-Modal Transit Transport Project will connect India with which one of the following countries?"
+    },
+    "content_hi": {
+      "title": "कलादान बहु-मोडल पारगमन परिवहन परियोजना का संपर्क",
+      "question": "कलादान बहु-मोडल पारगमन परिवहन परियोजना भारत को निम्नलिखित में से किस देश से जोड़ेगी?"
+    },
+    "options": [
+      "(a) Nepal",
+      "(b) Myanmar",
+      "(c) Bhutan",
+      "(d) Afghanistan"
+    ],
+    "options_hi": [
+      "(a) नेपाल",
+      "(b) म्यांमार",
+      "(c) भूटान",
+      "(d) अफगानिस्तान"
+    ],
+    "correctAnswer": "(b) Myanmar",
+    "correctAnswer_hi": "(b) म्यांमार",
+    "explanation": "The Kaladan Multi-Modal Transit Transport Project aims to connect the port of Kolkata in India to Sittwe port in Myanmar by sea, and further link Sittwe to Mizoram via river and road routes, enhancing connectivity with Southeast Asia.",
+    "explanation_hi": "कलादान बहु-मोडल पारगमन परिवहन परियोजना का उद्देश्य भारत के कोलकाता बंदरगाह को म्यांमार के सिटवे बंदरगाह से समुद्र मार्ग द्वारा जोड़ना है, और आगे सिटवे को मिजोरम से नदी और सड़क मार्गों के माध्यम से जोड़ना है, जिससे दक्षिण-पूर्व एशिया से संपर्क को मजबूत किया जा सके।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "international_relations",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Current Affairs",
+        "International Relations",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "974839df-292e-4758-a19b-a6ba4599d9c5"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Gandhiji’s First Public Appearance in India after Returning from South Africa (1915)",
+      "question": "Where did Gandhiji make his first public appearance after returning from South Africa in 1915?"
+    },
+    "content_hi": {
+      "title": "दक्षिण अफ्रीका से लौटने के बाद गांधीजी की पहली सार्वजनिक उपस्थिति (1915)",
+      "question": "1915 में दक्षिण अफ्रीका से लौटने के बाद गांधीजी ने अपनी पहली सार्वजनिक उपस्थिति कहाँ दी थी?"
+    },
+    "options": [
+      "(a) Bombay University",
+      "(b) Kheda",
+      "(c) Champaran",
+      "(d) Banaras Hindu University"
+    ],
+    "options_hi": [
+      "(a) बॉम्बे विश्वविद्यालय",
+      "(b) खेड़ा",
+      "(c) चंपारण",
+      "(d) बनारस हिंदू विश्वविद्यालय"
+    ],
+    "correctAnswer": "(d) Banaras Hindu University",
+    "correctAnswer_hi": "(d) बनारस हिंदू विश्वविद्यालय",
+    "explanation": "Mahatma Gandhi made his first public appearance in India at the inauguration of Banaras Hindu University in February 1916, where he delivered a speech criticizing social inequality and the excesses of the rich.",
+    "explanation_hi": "महात्मा गांधी ने भारत में अपनी पहली सार्वजनिक उपस्थिति फरवरी 1916 में बनारस हिंदू विश्वविद्यालय के उद्घाटन समारोह में दी थी, जहाँ उन्होंने सामाजिक असमानता और अमीरों के आडंबर पर आलोचनात्मक भाषण दिया था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "eca9b67d-24a1-4747-bc33-9bc89cb96c4a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Authorship of 'Gandhi as Mahatma'",
+      "question": "Who among the following is the author of 'Gandhi as Mahatma'?"
+    },
+    "content_hi": {
+      "title": "'गांधी ऐज़ महात्मा' के लेखक",
+      "question": "'गांधी ऐज़ महात्मा' के लेखक निम्नलिखित में से कौन हैं?"
+    },
+    "options": [
+      "(a) Mahadev Desai",
+      "(b) Shahid Amin",
+      "(c) Louis Fischer",
+      "(d) David Arnold"
+    ],
+    "options_hi": [
+      "(a) महादेव देसाई",
+      "(b) शाहिद अमीन",
+      "(c) लुईस फिशर",
+      "(d) डेविड अर्नोल्ड"
+    ],
+    "correctAnswer": "(b) Shahid Amin",
+    "correctAnswer_hi": "(b) शाहिद अमीन",
+    "explanation": "The book 'Gandhi as Mahatma' was written by historian Shahid Amin. It examines how Mahatma Gandhi was perceived and represented by peasants and ordinary people during the national movement.",
+    "explanation_hi": "'गांधी ऐज़ महात्मा' पुस्तक इतिहासकार शाहिद अमीन द्वारा लिखी गई है। इसमें यह विश्लेषण किया गया है कि राष्ट्रीय आंदोलन के दौरान किसानों और आम लोगों ने महात्मा गांधी को कैसे देखा और प्रस्तुत किया।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Analytical",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "4255fa25-e811-41c0-9842-2ae103e96080"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "President of the Indian National Congress at the Time of India's Independence (1947)",
+      "question": "Who among the following was the President of the Indian National Congress at the time of Independence of India?"
+    },
+    "content_hi": {
+      "title": "भारत की स्वतंत्रता (1947) के समय भारतीय राष्ट्रीय कांग्रेस के अध्यक्ष",
+      "question": "भारत की स्वतंत्रता के समय भारतीय राष्ट्रीय कांग्रेस के अध्यक्ष निम्नलिखित में से कौन थे?"
+    },
+    "options": [
+      "(a) Pattabhi Sitaramayya",
+      "(b) Jawahar Lal Nehru",
+      "(c) Abul Kalam Azad",
+      "(d) J. B. Kripalani"
+    ],
+    "options_hi": [
+      "(a) पट्टाभि सीतारमैया",
+      "(b) जवाहरलाल नेहरू",
+      "(c) अबुल कलाम आज़ाद",
+      "(d) जे. बी. कृपलानी"
+    ],
+    "correctAnswer": "(d) J. B. Kripalani",
+    "correctAnswer_hi": "(d) जे. बी. कृपलानी",
+    "explanation": "J. B. Kripalani was the President of the Indian National Congress at the time of India's Independence in 1947. He succeeded Maulana Abul Kalam Azad, who had served as Congress President during the Quit India Movement.",
+    "explanation_hi": "भारत की स्वतंत्रता के समय 1947 में जे. बी. कृपलानी भारतीय राष्ट्रीय कांग्रेस के अध्यक्ष थे। उन्होंने मौलाना अबुल कलाम आज़ाद के बाद यह पद संभाला, जो 'भारत छोड़ो आंदोलन' के दौरान कांग्रेस अध्यक्ष थे।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "a0625f0d-c76c-4693-a246-d92da63f79d3"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Kisan Sabha Movement in Gaya District, Bihar (1931)",
+      "question": "During 1931, under whose leadership did a strong Kisan Sabha movement develop in the Gaya District of Bihar?"
+    },
+    "content_hi": {
+      "title": "गया जिला (बिहार) में किसान सभा आंदोलन (1931)",
+      "question": "1931 के दौरान, बिहार के गया जिले में एक मजबूत किसान सभा आंदोलन किसके नेतृत्व में विकसित हुआ?"
+    },
+    "options": [
+      "(a) Yadunandan Sharma",
+      "(b) Sahajanand Saraswati",
+      "(c) Sheetla Sahai",
+      "(d) Tikka Majhi"
+    ],
+    "options_hi": [
+      "(a) यदुनंदन शर्मा",
+      "(b) सहजानंद सरस्वती",
+      "(c) शीतला सहाय",
+      "(d) टिका मांझी"
+    ],
+    "correctAnswer": "(a) Yadunandan Sharma",
+    "correctAnswer_hi": "(a) यदुनंदन शर्मा",
+    "explanation": "In 1931, under the leadership of Yadunandan Sharma, a strong Kisan Sabha movement emerged in Gaya District, Bihar. He was associated with peasant struggles and worked closely with Swami Sahajanand Saraswati in mobilizing farmers against zamindari oppression.",
+    "explanation_hi": "1931 में यदुनंदन शर्मा के नेतृत्व में बिहार के गया जिले में एक मजबूत किसान सभा आंदोलन विकसित हुआ। वे स्वामी सहजानंद सरस्वती के साथ मिलकर किसानों को ज़मींदारी शोषण के खिलाफ संगठित करने में सक्रिय थे।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Factual",
+        "Analytical"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "3dcd1e00-8e3a-487f-a98a-6e9566f072b7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Pirpur Report of 1938",
+      "question": "Who produced the Pirpur Report (1938)?"
+    },
+    "content_hi": {
+      "title": "पिरपुर रिपोर्ट (1938)",
+      "question": "पिरपुर रिपोर्ट (1938) किसके द्वारा प्रस्तुत की गई थी?"
+    },
+    "options": [
+      "(a) Muslim League",
+      "(b) Unionist Party",
+      "(c) Ahrar Party",
+      "(d) Indian National Congress"
+    ],
+    "options_hi": [
+      "(a) मुस्लिम लीग",
+      "(b) यूनियनिस्ट पार्टी",
+      "(c) अहरार पार्टी",
+      "(d) भारतीय राष्ट्रीय कांग्रेस"
+    ],
+    "correctAnswer": "(a) Muslim League",
+    "correctAnswer_hi": "(a) मुस्लिम लीग",
+    "explanation": "The Pirpur Report was produced by the Muslim League in 1938. It alleged discrimination against Muslims in Congress-ruled provinces and aimed to highlight grievances to justify separate political representation for Muslims.",
+    "explanation_hi": "पिरपुर रिपोर्ट 1938 में मुस्लिम लीग द्वारा प्रस्तुत की गई थी। इसमें कांग्रेस शासित प्रांतों में मुसलमानों के साथ भेदभाव के आरोप लगाए गए थे और मुस्लिमों के लिए अलग राजनीतिक प्रतिनिधित्व की मांग को उचित ठहराने का प्रयास किया गया था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "7a4581b7-19a7-4dd0-86be-66410abc4238"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Facts about the National Green Tribunal (NGT)",
+      "question": "Which one of the following facts pertaining to the National Green Tribunal (NGT) is not correct?"
+    },
+    "content_hi": {
+      "title": "राष्ट्रीय हरित अधिकरण (NGT) से संबंधित तथ्य",
+      "question": "निम्नलिखित में से कौन-सा तथ्य राष्ट्रीय हरित अधिकरण (NGT) से संबंधित सही नहीं है?"
+    },
+    "options": [
+      "(a) The NGT was set up in the year 2010.",
+      "(b) Its purpose is to ensure effective and expeditious disposal of cases relating to environmental protection and conservation of forests and other natural resources.",
+      "(c) It is bound by the procedure laid down under the Code of Civil Procedure.",
+      "(d) It is guided by the principles of Natural justice."
+    ],
+    "options_hi": [
+      "(a) राष्ट्रीय हरित अधिकरण की स्थापना वर्ष 2010 में की गई थी।",
+      "(b) इसका उद्देश्य पर्यावरण संरक्षण, वनों और अन्य प्राकृतिक संसाधनों से संबंधित मामलों का प्रभावी और त्वरित निपटारा सुनिश्चित करना है।",
+      "(c) यह दीवानी प्रक्रिया संहिता में निर्धारित प्रक्रिया से बाध्य है।",
+      "(d) यह प्राकृतिक न्याय के सिद्धांतों द्वारा निर्देशित है।"
+    ],
+    "correctAnswer": "(c) It is bound by the procedure laid down under the Code of Civil Procedure.",
+    "correctAnswer_hi": "(c) यह दीवानी प्रक्रिया संहिता में निर्धारित प्रक्रिया से बाध्य है।",
+    "explanation": "The National Green Tribunal (NGT), established in 2010, is not bound by the Code of Civil Procedure. Instead, it follows the principles of natural justice to ensure quick and fair adjudication of environmental cases.",
+    "explanation_hi": "राष्ट्रीय हरित अधिकरण (NGT) की स्थापना 2010 में की गई थी। यह दीवानी प्रक्रिया संहिता से बाध्य नहीं है, बल्कि पर्यावरणीय मामलों के शीघ्र और निष्पक्ष निपटारे के लिए प्राकृतिक न्याय के सिद्धांतों का पालन करता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Environment",
+        "Polity",
+        "Prelims",
+        "Previous Year",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "a2f78fd4-8e74-4473-8e81-bea000767d41"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Mandate of the Committee on Estimates",
+      "question": "Which one of the following is the mandate of the Committee on Estimates?"
+    },
+    "content_hi": {
+      "title": "अनुमान समिति का कार्यक्षेत्र",
+      "question": "निम्नलिखित में से कौन-सा अनुमान समिति का कार्यक्षेत्र है?"
+    },
+    "options": [
+      "(a) It reports on what economies, improvements in organization, efficiency or administrative reform consistent with the policy underlying the estimates, may be effected.",
+      "(b) It scrutinizes appropriation and finance accounts of the Government.",
+      "(c) It examines reports of the Comptroller and Auditor General and whether public undertakings are run efficiently.",
+      "(d) It examines bills on matters of general public interest."
+    ],
+    "options_hi": [
+      "(a) यह रिपोर्ट करती है कि अनुमान के अंतर्निहित नीति के अनुरूप किन बचतों, संगठनात्मक सुधारों, दक्षता या प्रशासनिक सुधारों को लागू किया जा सकता है।",
+      "(b) यह सरकार के विनियोजन और वित्त खातों की जांच करती है।",
+      "(c) यह नियंत्रक और महालेखा परीक्षक की रिपोर्टों और सार्वजनिक उपक्रमों की दक्षता की जांच करती है।",
+      "(d) यह सामान्य जनहित के विषयों पर विधेयकों की जांच करती है।"
+    ],
+    "correctAnswer": "(a) It reports on what economies, improvements in organization, efficiency or administrative reform consistent with the policy underlying the estimates, may be effected.",
+    "correctAnswer_hi": "(a) यह रिपोर्ट करती है कि अनुमान के अंतर्निहित नीति के अनुरूप किन बचतों, संगठनात्मक सुधारों, दक्षता या प्रशासनिक सुधारों को लागू किया जा सकता है।",
+    "explanation": "The Committee on Estimates examines the estimates included in the budget to suggest economies and improvements in organization and efficiency consistent with the underlying policy. It does not deal with audit reports or finance accounts.",
+    "explanation_hi": "अनुमान समिति बजट में शामिल अनुमानों की जांच करती है ताकि नीति के अनुरूप बचत, संगठनात्मक सुधार और दक्षता में सुधार के सुझाव दे सके। यह लेखा परीक्षण रिपोर्ट या वित्तीय खातों से संबंधित नहीं होती।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Polity",
+        "Prelims",
+        "Previous Year",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "ebd6a566-1910-4b84-bb08-0985d4592ed0"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "India’s Real GDP Growth Projection for 2021-22 (Economic Survey 2020-21)",
+      "question": "According to the Economic Survey 2020-21, which one of the following will be India's real GDP growth in the year 2021-22?"
+    },
+    "content_hi": {
+      "title": "आर्थिक सर्वेक्षण 2020-21 के अनुसार वर्ष 2021-22 में भारत की वास्तविक GDP वृद्धि दर",
+      "question": "आर्थिक सर्वेक्षण 2020-21 के अनुसार, वर्ष 2021-22 में भारत की वास्तविक GDP वृद्धि दर कितनी रहने का अनुमान लगाया गया था?"
+    },
+    "options": [
+      "(a) 9%",
+      "(b) 11%",
+      "(c) 13%",
+      "(d) 15%"
+    ],
+    "options_hi": [
+      "(a) 9%",
+      "(b) 11%",
+      "(c) 13%",
+      "(d) 15%"
+    ],
+    "correctAnswer": "(b) 11%",
+    "correctAnswer_hi": "(b) 11%",
+    "explanation": "The Economic Survey 2020-21 projected India's real GDP growth at 11% for 2021-22, reflecting a strong rebound from the contraction caused by the COVID-19 pandemic in the previous year.",
+    "explanation_hi": "आर्थिक सर्वेक्षण 2020-21 ने वर्ष 2021-22 के लिए भारत की वास्तविक GDP वृद्धि दर 11% रहने का अनुमान लगाया था, जो पिछले वर्ष COVID-19 महामारी से हुई गिरावट के बाद एक मजबूत पुनरुद्धार को दर्शाता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Economics",
+        "Current Affairs",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "67cb8263-2576-42f5-b42d-5510d7e64c2f"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Full Form of 'NITI' in NITI Aayog",
+      "question": "Which one of the following is the acronym for the word 'NITI' in NITI Aayog?"
+    },
+    "content_hi": {
+      "title": "नीति आयोग में 'NITI' का पूर्ण रूप",
+      "question": "नीति आयोग में 'NITI' शब्द का संक्षिप्त रूप निम्नलिखित में से कौन-सा है?"
+    },
+    "options": [
+      "(a) National Integration and Transformation of India",
+      "(b) National Institution for Transforming India",
+      "(c) National Institution for Technological India",
+      "(d) National Institution for Trust in India"
+    ],
+    "options_hi": [
+      "(a) नेशनल इंटीग्रेशन एंड ट्रांसफॉर्मेशन ऑफ इंडिया",
+      "(b) नेशनल इंस्टिट्यूशन फॉर ट्रांसफॉर्मिंग इंडिया",
+      "(c) नेशनल इंस्टिट्यूशन फॉर टेक्नोलॉजिकल इंडिया",
+      "(d) नेशनल इंस्टिट्यूशन फॉर ट्रस्ट इन इंडिया"
+    ],
+    "correctAnswer": "(b) National Institution for Transforming India",
+    "correctAnswer_hi": "(b) नेशनल इंस्टिट्यूशन फॉर ट्रांसफॉर्मिंग इंडिया",
+    "explanation": "The acronym 'NITI' in NITI Aayog stands for 'National Institution for Transforming India'. It replaced the Planning Commission in 2015 to promote cooperative federalism and provide policy think-tank support to the Government of India.",
+    "explanation_hi": "'नीति' का अर्थ 'National Institution for Transforming India' है। इसे 2015 में योजना आयोग के स्थान पर स्थापित किया गया था ताकि सहकारी संघवाद को बढ़ावा दिया जा सके और भारत सरकार को नीति निर्माण में सहायता प्रदान की जा सके।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Economics",
+        "Polity",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "7d43d2ad-ed06-49e3-b668-c42762223f87"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Description of the Namami Gange Programme",
+      "question": "Which one of the following is not a correct description of the Namami Gange Programme?"
+    },
+    "content_hi": {
+      "title": "नमामि गंगे कार्यक्रम का विवरण",
+      "question": "निम्नलिखित में से कौन-सा नमामि गंगे कार्यक्रम का सही विवरण नहीं है?"
+    },
+    "options": [
+      "(a) It is an initiative of the Ministry of Jal Shakti.",
+      "(b) It primarily covers villages in the States of Uttar Pradesh, Bihar and Odisha.",
+      "(c) It aims to make villages on the banks of the river Ganga open defecation-free.",
+      "(d) It aims to transform some villages on the banks of the river Ganga as Ganga Grams."
+    ],
+    "options_hi": [
+      "(a) यह जल शक्ति मंत्रालय की एक पहल है।",
+      "(b) यह मुख्यतः उत्तर प्रदेश, बिहार और ओडिशा राज्यों के गांवों को कवर करता है।",
+      "(c) इसका उद्देश्य गंगा नदी के किनारे स्थित गांवों को खुले में शौच से मुक्त बनाना है।",
+      "(d) इसका उद्देश्य गंगा नदी के किनारे स्थित कुछ गांवों को ‘गंगा ग्राम’ के रूप में विकसित करना है।"
+    ],
+    "correctAnswer": "(b) It primarily covers villages in the States of Uttar Pradesh, Bihar and Odisha.",
+    "correctAnswer_hi": "(b) यह मुख्यतः उत्तर प्रदेश, बिहार और ओडिशा राज्यों के गांवों को कवर करता है।",
+    "explanation": "The Namami Gange Programme is an initiative of the Ministry of Jal Shakti. It covers villages along the Ganga in five states — Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, and West Bengal — not Odisha. The programme aims to make these villages open defecation-free and develop them as 'Ganga Grams'.",
+    "explanation_hi": "नमामि गंगे कार्यक्रम जल शक्ति मंत्रालय की एक पहल है। यह उत्तराखंड, उत्तर प्रदेश, बिहार, झारखंड और पश्चिम बंगाल के गंगा किनारे स्थित गांवों को कवर करता है, न कि ओडिशा को। इस कार्यक्रम का उद्देश्य इन गांवों को खुले में शौच से मुक्त बनाना और उन्हें 'गंगा ग्राम' के रूप में विकसित करना है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "environment",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Environment",
+        "Geography",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "f9a12df2-4681-4f1f-a69a-e935cf466f79"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Maximum Weekly Working Hours for an Adult Worker under Indian Labour Laws",
+      "question": "What is the maximum number of hours in a week that an adult worker is allowed to work for?"
+    },
+    "content_hi": {
+      "title": "भारतीय श्रम क़ानूनों के अनुसार वयस्क श्रमिक के लिए साप्ताहिक अधिकतम कार्य घंटे",
+      "question": "एक वयस्क श्रमिक को सप्ताह में अधिकतम कितने घंटे काम करने की अनुमति है?"
+    },
+    "options": [
+      "(a) 35 Hours",
+      "(b) 40 Hours",
+      "(c) 45 Hours",
+      "(d) 48 Hours"
+    ],
+    "options_hi": [
+      "(a) 35 घंटे",
+      "(b) 40 घंटे",
+      "(c) 45 घंटे",
+      "(d) 48 घंटे"
+    ],
+    "correctAnswer": "(d) 48 Hours",
+    "correctAnswer_hi": "(d) 48 घंटे",
+    "explanation": "As per the Factories Act, 1948, an adult worker is allowed to work for a maximum of 48 hours per week, subject to a limit of 9 hours per day. Overtime is regulated under specific conditions.",
+    "explanation_hi": "कारखाना अधिनियम, 1948 के अनुसार, एक वयस्क श्रमिक को सप्ताह में अधिकतम 48 घंटे काम करने की अनुमति है, जिसमें प्रतिदिन अधिकतम 9 घंटे का कार्य शामिल है। ओवरटाइम विशेष परिस्थितियों में ही अनुमत है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Polity",
+        "Labour Laws",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "0cdade3f-c9e6-4037-b359-35695d60b2c8"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Revision Period of Minimum Wages under the Minimum Wages Act, 1948",
+      "question": "What is the maximum period in which the appropriate government shall review and revise the minimum rates of wages under the Minimum Wages Act, 1948?"
+    },
+    "content_hi": {
+      "title": "न्यूनतम वेतन अधिनियम, 1948 के तहत न्यूनतम वेतन की पुनरीक्षण अवधि",
+      "question": "न्यूनतम वेतन अधिनियम, 1948 के अनुसार उपयुक्त सरकार को न्यूनतम वेतन दरों की समीक्षा और संशोधन अधिकतम कितने समय में करना चाहिए?"
+    },
+    "options": [
+      "(a) 2 years",
+      "(b) 3 years",
+      "(c) 4 years",
+      "(d) 5 years"
+    ],
+    "options_hi": [
+      "(a) 2 वर्ष",
+      "(b) 3 वर्ष",
+      "(c) 4 वर्ष",
+      "(d) 5 वर्ष"
+    ],
+    "correctAnswer": "(b) 3 years",
+    "correctAnswer_hi": "(b) 3 वर्ष",
+    "explanation": "According to Section 3(1)(b) of the Minimum Wages Act, 1948, the appropriate government must review and revise the minimum rates of wages at intervals not exceeding five years, but it generally does so every three years.",
+    "explanation_hi": "न्यूनतम वेतन अधिनियम, 1948 की धारा 3(1)(b) के अनुसार, उपयुक्त सरकार को न्यूनतम वेतन दरों की समीक्षा और संशोधन अधिकतम पाँच वर्ष से अधिक अंतराल पर नहीं करना चाहिए, हालांकि सामान्यतः यह हर तीन वर्ष में किया जाता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Polity",
+        "Labour Laws",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "0e8fe5bb-d6db-4f7b-bd36-f26e52a73c1e"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Maximum Deposit Limit under Sukanya Samriddhi Yojana (SSY)",
+      "question": "Under Sukanya Samriddhi Yojana, what is the maximum amount that can be deposited during a financial year?"
+    },
+    "content_hi": {
+      "title": "सुकन्या समृद्धि योजना (SSY) के तहत अधिकतम जमा सीमा",
+      "question": "सुकन्या समृद्धि योजना के तहत एक वित्तीय वर्ष में अधिकतम कितना धन जमा किया जा सकता है?"
+    },
+    "options": [
+      "(a) ₹ 1.5 lakh",
+      "(b) ₹ 1 lakh",
+      "(c) ₹ 2 lakh",
+      "(d) ₹ 2.5 lakh"
+    ],
+    "options_hi": [
+      "(a) ₹ 1.5 लाख",
+      "(b) ₹ 1 लाख",
+      "(c) ₹ 2 लाख",
+      "(d) ₹ 2.5 लाख"
+    ],
+    "correctAnswer": "(a) ₹ 1.5 lakh",
+    "correctAnswer_hi": "(a) ₹ 1.5 लाख",
+    "explanation": "Under the Sukanya Samriddhi Yojana, the maximum deposit limit during a financial year is ₹1.5 lakh. This scheme, launched under the 'Beti Bachao Beti Padhao' initiative, offers tax benefits under Section 80C of the Income Tax Act.",
+    "explanation_hi": "सुकन्या समृद्धि योजना के तहत एक वित्तीय वर्ष में अधिकतम ₹1.5 लाख तक की राशि जमा की जा सकती है। यह योजना 'बेटी बचाओ बेटी पढ़ाओ' पहल के अंतर्गत शुरू की गई थी और इसमें आयकर अधिनियम की धारा 80C के तहत कर छूट का लाभ मिलता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Economics",
+        "Schemes",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "b1caded5-fb52-4387-986b-f35bd991a876"
   }
 ]
