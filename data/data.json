@@ -913,5 +913,269 @@
       "similarQuestions": []
     },
     "id": "b1caded5-fb52-4387-986b-f35bd991a876"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Eligibility Age Limit for Joining the Atal Pension Yojana (APY)",
+      "question": "What is the minimum and maximum age at which a subscriber can join the Atal Pension Yojana?"
+    },
+    "content_hi": {
+      "title": "अटल पेंशन योजना (APY) में शामिल होने की आयु सीमा",
+      "question": "अटल पेंशन योजना में शामिल होने के लिए न्यूनतम और अधिकतम आयु क्रमशः कितनी है?"
+    },
+    "options": [
+      "(a) 21 years and 58 years respectively",
+      "(b) 18 years and 40 years respectively",
+      "(c) 18 years and 50 years respectively",
+      "(d) 21 years and 60 years respectively"
+    ],
+    "options_hi": [
+      "(a) क्रमशः 21 वर्ष और 58 वर्ष",
+      "(b) क्रमशः 18 वर्ष और 40 वर्ष",
+      "(c) क्रमशः 18 वर्ष और 50 वर्ष",
+      "(d) क्रमशः 21 वर्ष और 60 वर्ष"
+    ],
+    "correctAnswer": "(b) 18 years and 40 years respectively",
+    "correctAnswer_hi": "(b) क्रमशः 18 वर्ष और 40 वर्ष",
+    "explanation": "Under the Atal Pension Yojana, the minimum age of entry is 18 years and the maximum age is 40 years. The pension begins at the age of 60 years, depending on the contributions made during the subscription period.",
+    "explanation_hi": "अटल पेंशन योजना के तहत न्यूनतम आयु सीमा 18 वर्ष और अधिकतम आयु सीमा 40 वर्ष है। योजना के तहत पेंशन की शुरुआत 60 वर्ष की आयु पर होती है, जो सदस्य द्वारा किए गए अंशदान पर निर्भर करती है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Economics",
+        "Schemes",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "a561a026-1491-43ea-91eb-b11c6b9de460"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Author of the Book 'The Little Book of Encouragement'",
+      "question": "Who among the following is the author of the book 'The Little Book of Encouragement'?"
+    },
+    "content_hi": {
+      "title": "'द लिटिल बुक ऑफ एनकरेजमेंट' पुस्तक के लेखक",
+      "question": "'द लिटिल बुक ऑफ एनकरेजमेंट' पुस्तक के लेखक निम्नलिखित में से कौन हैं?"
+    },
+    "options": [
+      "(a) Dalai Lama",
+      "(b) A. P. J. Abdul Kalam",
+      "(c) Ravi Shankar",
+      "(d) Jaggi Vasudev"
+    ],
+    "options_hi": [
+      "(a) दलाई लामा",
+      "(b) ए. पी. जे. अब्दुल कलाम",
+      "(c) रवि शंकर",
+      "(d) जग्गी वासुदेव"
+    ],
+    "correctAnswer": "(a) Dalai Lama",
+    "correctAnswer_hi": "(a) दलाई लामा",
+    "explanation": "The book 'The Little Book of Encouragement' was written by the Dalai Lama. It contains 130 inspirational quotes offering hope and compassion to people facing global challenges.",
+    "explanation_hi": "'द लिटिल बुक ऑफ एनकरेजमेंट' पुस्तक दलाई लामा द्वारा लिखी गई है। इसमें 130 प्रेरणादायक उद्धरण हैं जो वैश्विक चुनौतियों का सामना कर रहे लोगों को आशा और करुणा का संदेश देते हैं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Art & Culture",
+        "Current Affairs",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "1409bde0-b75c-4735-9c10-8841efb067e9"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Observation of 'Parakram Diwas' by the Government of India",
+      "question": "Which day has been declared by the Government of India to be celebrated every year as 'Parakram Diwas'?"
+    },
+    "content_hi": {
+      "title": "भारत सरकार द्वारा 'पराक्रम दिवस' के रूप में मनाया जाने वाला दिवस",
+      "question": "भारत सरकार द्वारा प्रत्येक वर्ष 'पराक्रम दिवस' के रूप में मनाने के लिए किस दिन को घोषित किया गया है?"
+    },
+    "options": [
+      "(a) 23 January",
+      "(b) 14 April",
+      "(c) 28 May",
+      "(d) 25 December"
+    ],
+    "options_hi": [
+      "(a) 23 जनवरी",
+      "(b) 14 अप्रैल",
+      "(c) 28 मई",
+      "(d) 25 दिसंबर"
+    ],
+    "correctAnswer": "(a) 23 January",
+    "correctAnswer_hi": "(a) 23 जनवरी",
+    "explanation": "The Government of India declared 23rd January, the birth anniversary of Netaji Subhas Chandra Bose, to be celebrated every year as 'Parakram Diwas' to honor his courage and contribution to India's freedom struggle.",
+    "explanation_hi": "भारत सरकार ने नेताजी सुभाष चंद्र बोस की जयंती 23 जनवरी को प्रतिवर्ष 'पराक्रम दिवस' के रूप में मनाने की घोषणा की है ताकि उनके साहस और भारत के स्वतंत्रता संग्राम में योगदान को सम्मानित किया जा सके।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "History",
+        "Current Affairs",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "4d67db03-9060-4727-b986-a35cb38aea22"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Famous 16th Century Artwork 'Salvator Mundi'",
+      "question": "A copy of the famous 16th century artwork 'Salvator Mundi', which was reportedly stolen, has recently been recovered by the Police in Italy. The painting is attributed to whom among the following?"
+    },
+    "content_hi": {
+      "title": "प्रसिद्ध 16वीं शताब्दी की कला-कृति 'साल्वाटोर मुंडी'",
+      "question": "प्रसिद्ध 16वीं शताब्दी की कला-कृति 'साल्वाटोर मुंडी' की एक प्रति, जो कथित रूप से चोरी हो गई थी, हाल ही में इटली में पुलिस द्वारा बरामद की गई है। यह पेंटिंग निम्नलिखित में से किस कलाकार से संबंधित है?"
+    },
+    "options": [
+      "(a) Vincent Van Gogh",
+      "(b) Pablo Picasso",
+      "(c) Michelangelo",
+      "(d) Leonardo da Vinci"
+    ],
+    "options_hi": [
+      "(a) विन्सेंट वैन गॉग",
+      "(b) पाब्लो पिकासो",
+      "(c) माइकल एंजेलो",
+      "(d) लियोनार्डो दा विंची"
+    ],
+    "correctAnswer": "(d) Leonardo da Vinci",
+    "correctAnswer_hi": "(d) लियोनार्डो दा विंची",
+    "explanation": "The painting 'Salvator Mundi' (Savior of the World) is attributed to Leonardo da Vinci. It depicts Jesus Christ holding a crystal orb and is one of the most famous works of Renaissance art.",
+    "explanation_hi": "'साल्वाटोर मुंडी' (विश्व के उद्धारकर्ता) पेंटिंग लियोनार्डो दा विंची से संबंधित मानी जाती है। इसमें यीशु मसीह को एक क्रिस्टल गोला पकड़े हुए दिखाया गया है और यह पुनर्जागरण काल की सबसे प्रसिद्ध कलाकृतियों में से एक है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Art & Culture",
+        "Current Affairs",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "c16d6823-c496-404c-9c81-068df96139b7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "India’s Rank in Global Firepower Index 2021",
+      "question": "The Global Firepower Index-2021, a military strength ranking, placed India at which rank?"
+    },
+    "content_hi": {
+      "title": "ग्लोबल फायरपावर इंडेक्स 2021 में भारत की रैंक",
+      "question": "सैन्य शक्ति रैंकिंग 'ग्लोबल फायरपावर इंडेक्स 2021' में भारत को किस स्थान पर रखा गया था?"
+    },
+    "options": [
+      "(a) 2nd",
+      "(b) 3rd",
+      "(c) 4th",
+      "(d) 5th"
+    ],
+    "options_hi": [
+      "(a) द्वितीय",
+      "(b) तृतीय",
+      "(c) चतुर्थ",
+      "(d) पंचम"
+    ],
+    "correctAnswer": "(b) 3rd",
+    "correctAnswer_hi": "(b) तृतीय",
+    "explanation": "According to the Global Firepower Index 2021, India was ranked 3rd in terms of military strength, after the United States and Russia, reflecting its significant defense capabilities.",
+    "explanation_hi": "ग्लोबल फायरपावर इंडेक्स 2021 के अनुसार, भारत को सैन्य शक्ति के मामले में अमेरिका और रूस के बाद तीसरा स्थान प्राप्त हुआ था, जो इसकी महत्वपूर्ण रक्षा क्षमता को दर्शाता है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "current_affairs",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Current Affairs",
+        "International Relations",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "251ce87e-2b1b-470a-acce-c8f9e63544f6"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Australian Open 2021 – Women’s Singles Champion",
+      "question": "Naomi Osaka won the women's singles title of the Australian Open Tennis Tournament, 2021. Who among the following was defeated by her in the finals?"
+    },
+    "content_hi": {
+      "title": "ऑस्ट्रेलियन ओपन 2021 – महिला एकल विजेता",
+      "question": "नाओमी ओसाका ने ऑस्ट्रेलियन ओपन टेनिस टूर्नामेंट 2021 का महिला एकल खिताब जीता। उन्होंने फाइनल में निम्नलिखित में से किसे हराया?"
+    },
+    "options": [
+      "(a) Venus Williams",
+      "(b) Jennifer Brady",
+      "(c) Serena Williams",
+      "(d) Simona Halep"
+    ],
+    "options_hi": [
+      "(a) वीनस विलियम्स",
+      "(b) जेनिफर ब्रैडी",
+      "(c) सेरेना विलियम्स",
+      "(d) सिमोना हालेप"
+    ],
+    "correctAnswer": "(b) Jennifer Brady",
+    "correctAnswer_hi": "(b) जेनिफर ब्रैडी",
+    "explanation": "In the 2021 Australian Open women's singles final, Japan's Naomi Osaka defeated Jennifer Brady of the United States to claim her fourth Grand Slam title.",
+    "explanation_hi": "ऑस्ट्रेलियन ओपन 2021 के महिला एकल फाइनल में जापान की नाओमी ओसाका ने अमेरिका की जेनिफर ब्रैडी को हराकर अपना चौथा ग्रैंड स्लैम खिताब जीता।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "current_affairs",
+      "tags": [
+        "UPSC",
+        "Defense",
+        "Current Affairs",
+        "Sports",
+        "Prelims",
+        "Previous Year",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2021",
+      "similarQuestions": []
+    },
+    "id": "d8af47d7-e233-48b0-aa06-98eb87bbb2ff"
   }
 ]
