@@ -1,32 +1,131 @@
-﻿"use client";
+"use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-function buildQuestionText(question) {
-  const primary =
-    question?.content?.question ||
-    question?.content?.simpleText ||
-    question?.question ||
-    question?.prompt;
-  const secondary =
-    question?.content_hi?.question ||
-    question?.content_hi?.simpleText ||
-    question?.question_hi;
+import { Button } from "@/components/ui/button";
 
-  return { primary, secondary };
+const LANGUAGE_OPTIONS = [
+  { label: "English", value: "en" },
+  { label: "Hindi", value: "hi" },
+];
+
+function hasValue(value) {
+  if (Array.isArray(value)) {
+    return value.length > 0;
+  }
+
+  if (typeof value === "string") {
+    return value.trim().length > 0;
+  }
+
+  if (value && typeof value === "object") {
+    return Object.keys(value).length > 0;
+  }
+
+  return Boolean(value);
+}
+
+function getLocalizedValue(question, language, baseKey) {
+  const isHindi = language === "hi";
+  const primaryKey = isHindi ? `${baseKey}_hi` : baseKey;
+  const fallbackKey = isHindi ? baseKey : `${baseKey}_hi`;
+
+  const primary = question?.[primaryKey];
+  if (hasValue(primary)) {
+    return { value: primary, isFallback: false };
+  }
+
+  const fallback = question?.[fallbackKey];
+  if (hasValue(fallback)) {
+    return { value: fallback, isFallback: true };
+  }
+
+  return { value: undefined, isFallback: false };
+}
+
+function getPromptText(question, content, language) {
+  const contentFields = [
+    content?.title,
+    content?.question,
+    content?.simpleText,
+    content?.description,
+  ];
+
+  for (const field of contentFields) {
+    if (typeof field === "string" && field.trim()) {
+      return field.trim();
+    }
+  }
+
+  const directKey = language === "hi" ? "question_hi" : "question";
+  if (typeof question?.[directKey] === "string" && question[directKey].trim()) {
+    return question[directKey].trim();
+  }
+
+  const fallbackContent =
+    language === "hi" ? question?.content : question?.content_hi;
+  const fallbackFields = [
+    fallbackContent?.title,
+    fallbackContent?.question,
+    fallbackContent?.simpleText,
+    fallbackContent?.description,
+  ];
+
+  for (const field of fallbackFields) {
+    if (typeof field === "string" && field?.trim()) {
+      return field.trim();
+    }
+  }
+
+  return "";
 }
 
 export function QuestionRenderer({ question }) {
   const [selected, setSelected] = useState("");
+  const [language, setLanguage] = useState("en");
+
+  useEffect(() => {
+    setSelected("");
+  }, [language, question?.id]);
 
   if (!question) {
     return null;
   }
 
-  const { primary, secondary } = buildQuestionText(question);
-  const options = question?.options ?? [];
-  const optionsHi = question?.options_hi ?? [];
-  const correctAnswer = question?.correctAnswer?.trim();
+  const {
+    value: localizedContentRaw,
+    isFallback: isContentFallback,
+  } = getLocalizedValue(question, language, "content");
+  const {
+    value: localizedOptionsRaw,
+    isFallback: isOptionsFallback,
+  } = getLocalizedValue(question, language, "options");
+  const { value: localizedAnswerRaw } = getLocalizedValue(
+    question,
+    language,
+    "correctAnswer",
+  );
+  const { value: localizedExplanationRaw } = getLocalizedValue(
+    question,
+    language,
+    "explanation",
+  );
+
+  const content = localizedContentRaw ?? {};
+  const prompt = getPromptText(question, content, language);
+  const statements = Array.isArray(content?.statements)
+    ? content.statements
+    : [];
+  const options = Array.isArray(localizedOptionsRaw) ? localizedOptionsRaw : [];
+  const correctAnswer =
+    typeof localizedAnswerRaw === "string"
+      ? localizedAnswerRaw.trim()
+      : question?.correctAnswer?.trim();
+  const explanationText =
+    typeof localizedExplanationRaw === "string" && localizedExplanationRaw.trim()
+      ? localizedExplanationRaw
+      : question?.explanation || "";
+
   const showExplanation = Boolean(selected);
   const isCorrect =
     showExplanation &&
@@ -43,17 +142,50 @@ export function QuestionRenderer({ question }) {
     ? `Correct answer: ${correctAnswer}`
     : "Review the material and try again.";
 
+  const contentFallbackMessage = isContentFallback
+    ? language === "hi"
+      ? "Hindi version unavailable — showing English text."
+      : "English version unavailable — showing Hindi text."
+    : null;
+
+  const optionsFallbackMessage =
+    isOptionsFallback && options.length
+      ? language === "hi"
+        ? "Hindi options unavailable — showing English choices."
+        : "English options unavailable — showing Hindi choices."
+      : null;
+
   return (
     <article className="space-y-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
       <div className="space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-          Question
-        </p>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+            Question
+          </p>
+          <div className="flex gap-2">
+            {LANGUAGE_OPTIONS.map((option) => (
+              <Button
+                key={option.value}
+                type="button"
+                size="sm"
+                variant={language === option.value ? "default" : "outline"}
+                onClick={() => setLanguage(option.value)}
+                aria-pressed={language === option.value}
+              >
+                {option.label}
+              </Button>
+            ))}
+          </div>
+        </div>
+
+        {contentFallbackMessage ? (
+          <p className="text-xs text-amber-600">{contentFallbackMessage}</p>
+        ) : null}
 
         {question?.type === "multiple-statement-question" &&
-        question.content?.statements?.length ? (
+        statements.length ? (
           <div className="space-y-3">
-            {question.content.statements.map((item, index) => (
+            {statements.map((item, index) => (
               <div
                 key={`${question.id}-statement-${item.label ?? index}`}
                 className="flex gap-3 rounded-lg bg-gray-50 p-3"
@@ -69,9 +201,9 @@ export function QuestionRenderer({ question }) {
 
         {question?.type === "statement-analysis" && (
           <div className="space-y-4">
-            {question.content?.statements?.length ? (
+            {statements.length ? (
               <div className="space-y-4 border-l-2 border-gray-200 pl-4">
-                {question.content.statements.map((item, index) => (
+                {statements.map((item, index) => (
                   <div
                     key={`${question.id}-roman-${index}`}
                     className="leading-relaxed"
@@ -90,11 +222,8 @@ export function QuestionRenderer({ question }) {
             ) : null}
           </div>
         )}
-        {primary ? (
-          <p className="text-base leading-relaxed text-slate-900">{primary}</p>
-        ) : null}
-        {secondary ? (
-          <p className="text-sm leading-relaxed text-slate-600">{secondary}</p>
+        {prompt ? (
+          <p className="text-base leading-relaxed text-slate-900">{prompt}</p>
         ) : null}
       </div>
 
@@ -102,6 +231,9 @@ export function QuestionRenderer({ question }) {
         <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
           Choose an option
         </p>
+        {optionsFallbackMessage ? (
+          <p className="text-xs text-amber-600">{optionsFallbackMessage}</p>
+        ) : null}
         <div className="space-y-3">
           {options.length === 0 ? (
             <p className="text-sm text-slate-500">Options unavailable.</p>
@@ -109,14 +241,13 @@ export function QuestionRenderer({ question }) {
             options.map((option, index) => {
               const optionText = option?.trim() || `Option ${index + 1}`;
               const optionId = `${question.id}-option-${index}`;
-              const secondaryOption = optionsHi[index];
 
               return (
                 <label
                   key={optionId}
                   htmlFor={optionId}
                   className={`flex cursor-pointer items-start gap-3 rounded-xl border px-4 py-3 text-sm shadow-sm transition hover:border-slate-400 ${
-                    selected === option
+                    selected === optionText
                       ? "border-slate-400"
                       : "border-slate-200"
                   }`}
@@ -125,18 +256,13 @@ export function QuestionRenderer({ question }) {
                     type="radio"
                     id={optionId}
                     name={`answer-${question.id}`}
-                    value={option}
-                    checked={selected === option}
-                    onChange={(event) => setSelected(event.target.value)}
+                    value={optionText}
+                    checked={selected === optionText}
+                    onChange={() => setSelected(optionText)}
                     className="mt-1 h-4 w-4 border-slate-400 text-sky-600 focus:ring-sky-500"
                   />
                   <div>
                     <p className="font-medium text-slate-900">{optionText}</p>
-                    {secondaryOption ? (
-                      <p className="text-xs text-slate-600">
-                        {secondaryOption}
-                      </p>
-                    ) : null}
                   </div>
                 </label>
               );
@@ -150,7 +276,7 @@ export function QuestionRenderer({ question }) {
           className={`rounded-xl border px-4 py-3 text-sm ${explanationColor}`}
         >
           <p className="font-semibold">{isCorrect ? "Correct" : "Incorrect"}</p>
-          <p className="mt-1">{question?.explanation || explanationFallback}</p>
+          <p className="mt-1">{explanationText || explanationFallback}</p>
         </div>
       ) : null}
     </article>
