@@ -92,23 +92,19 @@ export function QuestionRenderer({ question }) {
     return null;
   }
 
-  const {
-    value: localizedContentRaw,
-    isFallback: isContentFallback,
-  } = getLocalizedValue(question, language, "content");
-  const {
-    value: localizedOptionsRaw,
-    isFallback: isOptionsFallback,
-  } = getLocalizedValue(question, language, "options");
+  const { value: localizedContentRaw, isFallback: isContentFallback } =
+    getLocalizedValue(question, language, "content");
+  const { value: localizedOptionsRaw, isFallback: isOptionsFallback } =
+    getLocalizedValue(question, language, "options");
   const { value: localizedAnswerRaw } = getLocalizedValue(
     question,
     language,
-    "correctAnswer",
+    "correctAnswer"
   );
   const { value: localizedExplanationRaw } = getLocalizedValue(
     question,
     language,
-    "explanation",
+    "explanation"
   );
 
   const content = localizedContentRaw ?? {};
@@ -122,7 +118,8 @@ export function QuestionRenderer({ question }) {
       ? localizedAnswerRaw.trim()
       : question?.correctAnswer?.trim();
   const explanationText =
-    typeof localizedExplanationRaw === "string" && localizedExplanationRaw.trim()
+    typeof localizedExplanationRaw === "string" &&
+    localizedExplanationRaw.trim()
       ? localizedExplanationRaw
       : question?.explanation || "";
 
@@ -162,6 +159,7 @@ export function QuestionRenderer({ question }) {
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
             Question
           </p>
+
           <div className="flex gap-2">
             {LANGUAGE_OPTIONS.map((option) => (
               <Button
@@ -181,14 +179,24 @@ export function QuestionRenderer({ question }) {
         {contentFallbackMessage ? (
           <p className="text-xs text-amber-600">{contentFallbackMessage}</p>
         ) : null}
+        {question?.type === "simple-multiple-choice" && (
+          <p className="text-base leading-relaxed text-slate-900">
+            {question.content.question}
+          </p>
+        )}
+        {question.content.prompt ? (
+          <p className="text-base leading-relaxed text-slate-900">
+            {question.content.prompt}
+          </p>
+        ) : null}
 
         {question?.type === "multiple-statement-question" &&
         statements.length ? (
-          <div className="space-y-3">
+          <div className="space-y-3 py-2">
             {statements.map((item, index) => (
               <div
                 key={`${question.id}-statement-${item.label ?? index}`}
-                className="flex gap-3 rounded-lg bg-gray-50 p-3"
+                className="flex rounded-lg bg-gray-50 p-0.5"
               >
                 <span className="flex-shrink-0 font-semibold text-gray-900">
                   {item.label ? `${item.label}.` : `Statement ${index + 1}:`}
@@ -222,10 +230,14 @@ export function QuestionRenderer({ question }) {
             ) : null}
           </div>
         )}
-        {prompt ? (
-          <p className="text-base leading-relaxed text-slate-900">{prompt}</p>
-        ) : null}
       </div>
+      {question.content.prompt && (
+        <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+          <p className="font-semibold text-blue-900">
+            {question.content.question}
+          </p>
+        </div>
+      )}
 
       <div className="space-y-3">
         <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
