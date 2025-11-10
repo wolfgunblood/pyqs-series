@@ -3171,5 +3171,1136 @@
       "similarQuestions": []
     },
     "id": "a33de1aa-c1d1-442c-ba0f-6181295cd3bd"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Features of Monopolistic Competition",
+      "question": "Which one of the following is not a feature of monopolistic competition?"
+    },
+    "content_hi": {
+      "title": "एकाधिकारवादी प्रतियोगिता की विशेषताएँ",
+      "question": "निम्नलिखित में से कौन-सी एकाधिकारवादी प्रतियोगिता की विशेषता नहीं है?"
+    },
+    "options": [
+      "(a) Large number of buyers and sellers in the market",
+      "(b) Differentiated products constitutes the market",
+      "(c) Products in the market is homogeneous",
+      "(d) Selling costs are used for sale promotion"
+    ],
+    "options_hi": [
+      "(a) बाजार में खरीदारों और विक्रेताओं की बड़ी संख्या होती है",
+      "(b) भिन्न-भिन्न उत्पाद बाजार का गठन करते हैं",
+      "(c) बाजार में उत्पाद समरूप (होमोजीनियस) होते हैं",
+      "(d) बिक्री बढ़ाने के लिए विक्रय लागत का उपयोग किया जाता है"
+    ],
+    "correctAnswer": "(c) Products in the market is homogeneous",
+    "correctAnswer_hi": "(c) बाजार में उत्पाद समरूप (होमोजीनियस) होते हैं",
+    "explanation": "एकाधिकारवादी प्रतियोगिता में उत्पाद समान नहीं होते बल्कि उनमें कुछ भिन्नताएँ होती हैं। इसलिए 'उत्पाद समरूप होते हैं' वाला कथन गलत है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Market Structure",
+        "Monopolistic Competition",
+        "Microeconomics",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "7b779da6-ac22-4a9c-b217-0d62110855b2"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Difference Between Social Cost and Economic Cost",
+      "question": "Social cost is higher than economic cost because:"
+    },
+    "content_hi": {
+      "title": "सामाजिक लागत और आर्थिक लागत के बीच अंतर",
+      "question": "सामाजिक लागत आर्थिक लागत से अधिक होती है क्योंकि:"
+    },
+    "options": [
+      "(a) Society is bigger than economy",
+      "(b) Society includes polity, while economy does not include it",
+      "(c) Cost borne by bystanders is positive",
+      "(d) Society includes both producers and consumers"
+    ],
+    "options_hi": [
+      "(a) समाज अर्थव्यवस्था से बड़ा होता है",
+      "(b) समाज में राजनीति शामिल होती है, जबकि अर्थव्यवस्था में नहीं",
+      "(c) बाहरी व्यक्तियों द्वारा वहन की गई लागत धनात्मक होती है",
+      "(d) समाज में उत्पादक और उपभोक्ता दोनों शामिल होते हैं"
+    ],
+    "correctAnswer": "(c) Cost borne by bystanders is positive",
+    "correctAnswer_hi": "(c) बाहरी व्यक्तियों द्वारा वहन की गई लागत धनात्मक होती है",
+    "explanation": "सामाजिक लागत में बाहरी प्रभावों (Externalities) का प्रभाव शामिल होता है। जब बाहरी व्यक्तियों या समाज पर अतिरिक्त लागत पड़ती है, तो सामाजिक लागत आर्थिक लागत से अधिक हो जाती है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Economics",
+        "Externalities",
+        "Microeconomics",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "6bfe19b8-db2e-485f-b03d-edc6eef8749b"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Cess on Coal and its Classification",
+      "question": "Cess on coal at Rs. 100 per ton is a type of:"
+    },
+    "content_hi": {
+      "title": "कोयले पर उपकर और उसका वर्गीकरण",
+      "question": "प्रति टन ₹100 का कोयला उपकर किस प्रकार का है?"
+    },
+    "options": [
+      "(a) Carbon tax",
+      "(b) Carbon subsidy",
+      "(c) Carbon incentive for technology",
+      "(d) Carbon incentive for selling carbon permit"
+    ],
+    "options_hi": [
+      "(a) कार्बन कर",
+      "(b) कार्बन सब्सिडी",
+      "(c) प्रौद्योगिकी के लिए कार्बन प्रोत्साहन",
+      "(d) कार्बन परमिट बेचने के लिए प्रोत्साहन"
+    ],
+    "correctAnswer": "(a) Carbon tax",
+    "correctAnswer_hi": "(a) कार्बन कर",
+    "explanation": "कोयले पर उपकर (Cess) प्रदूषणकारी गतिविधियों पर लगाया गया कर है, जिसे कार्बन टैक्स कहा जाता है। इसका उद्देश्य कार्बन उत्सर्जन को हतोत्साहित करना और स्वच्छ ऊर्जा को बढ़ावा देना है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Environment Economics",
+        "Carbon Tax",
+        "Fiscal Policy",
+        "Current Affairs"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "19a5529d-996a-484c-9060-7507e94986d7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Author of the Book 'Choice of Techniques'",
+      "question": "Who among the following is the author of the book 'Choice of Techniques'?"
+    },
+    "content_hi": {
+      "title": "'चॉइस ऑफ टेक्नीक्स' पुस्तक के लेखक",
+      "question": "निम्नलिखित में से कौन 'चॉइस ऑफ टेक्नीक्स' पुस्तक के लेखक हैं?"
+    },
+    "options": [
+      "(a) A. K. Sen",
+      "(b) K. N. Raj",
+      "(c) V. K. R. V. Rao",
+      "(d) Sukhamoy Chakravarthy"
+    ],
+    "options_hi": [
+      "(a) ए. के. सेन",
+      "(b) के. एन. राज",
+      "(c) वी. के. आर. वी. राव",
+      "(d) सुकमोय चक्रवर्ती"
+    ],
+    "correctAnswer": "(a) A. K. Sen",
+    "correctAnswer_hi": "(a) ए. के. सेन",
+    "explanation": "प्रसिद्ध अर्थशास्त्री अमर्त्य सेन ने 'Choice of Techniques' पुस्तक लिखी, जिसमें उन्होंने विकासशील देशों में पूंजी-गहन और श्रम-गहन तकनीकों के चयन की समस्या का विश्लेषण किया।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Economics",
+        "Development Theory",
+        "Books and Authors",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "903e3553-629d-4a89-be8a-7f9d465ae47d"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Difference Between Core Inflation and Headline Inflation",
+      "question": "Core inflation is different from headline inflation because the former:"
+    },
+    "content_hi": {
+      "title": "कोर मुद्रास्फीति और हेडलाइन मुद्रास्फीति के बीच अंतर",
+      "question": "कोर मुद्रास्फीति हेडलाइन मुद्रास्फीति से इसलिए भिन्न होती है क्योंकि यह:"
+    },
+    "options": [
+      "(a) Ignores articles of volatile nature in the price index",
+      "(b) Considers articles of volatile nature in the price index",
+      "(c) Is not based on commodity price index",
+      "(d) Considers only core items of consumption in the price index"
+    ],
+    "options_hi": [
+      "(a) मूल्य सूचकांक में अस्थिर प्रकृति के वस्तुओं को नजरअंदाज करती है",
+      "(b) मूल्य सूचकांक में अस्थिर प्रकृति के वस्तुओं को शामिल करती है",
+      "(c) वस्तु मूल्य सूचकांक पर आधारित नहीं होती",
+      "(d) केवल मुख्य उपभोग वस्तुओं को मूल्य सूचकांक में शामिल करती है"
+    ],
+    "correctAnswer": "(a) Ignores articles of volatile nature in the price index",
+    "correctAnswer_hi": "(a) मूल्य सूचकांक में अस्थिर प्रकृति के वस्तुओं को नजरअंदाज करती है",
+    "explanation": "कोर मुद्रास्फीति उन वस्तुओं को शामिल नहीं करती जिनकी कीमतों में अत्यधिक अस्थिरता होती है, जैसे खाद्य पदार्थ और ईंधन। इससे दीर्घकालिक मूल्य प्रवृत्तियों को बेहतर समझा जा सकता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Inflation",
+        "Monetary Policy",
+        "Macroeconomics",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "4089f81b-fbc5-4e3b-a166-cb1930fc953a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Worker's Participation in Management of Industries",
+      "question": "The provision of worker's participation in the management of industries is provided under which Article of the Constitution of India?"
+    },
+    "content_hi": {
+      "title": "उद्योगों के प्रबंधन में श्रमिकों की भागीदारी का प्रावधान",
+      "question": "भारत के संविधान के किस अनुच्छेद के अंतर्गत उद्योगों के प्रबंधन में श्रमिकों की भागीदारी का प्रावधान किया गया है?"
+    },
+    "options": [
+      "(a) Article 39A of the Constitution of India",
+      "(b) Article 43A of the Constitution of India",
+      "(c) Article 42 of the Constitution of India",
+      "(d) Article 43B of the Constitution of India"
+    ],
+    "options_hi": [
+      "(a) भारत के संविधान का अनुच्छेद 39A",
+      "(b) भारत के संविधान का अनुच्छेद 43A",
+      "(c) भारत के संविधान का अनुच्छेद 42",
+      "(d) भारत के संविधान का अनुच्छेद 43B"
+    ],
+    "correctAnswer": "(b) Article 43A of the Constitution of India",
+    "correctAnswer_hi": "(b) भारत के संविधान का अनुच्छेद 43A",
+    "explanation": "अनुच्छेद 43A को 42वें संविधान संशोधन (1976) द्वारा जोड़ा गया था, जो उद्योगों के प्रबंधन में श्रमिकों की भागीदारी को प्रोत्साहित करने का निर्देश देता है। यह राज्य नीति के निदेशक तत्वों का हिस्सा है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Directive Principles",
+        "Indian Constitution",
+        "Labour Welfare",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "3dfe58bf-305c-4dc5-9055-eda4a1f61686"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Statutory Machinery Functioning at the Central Level",
+      "question": "Which one of the following is a statutory machinery functioning at the central level?"
+    },
+    "content_hi": {
+      "title": "केंद्रीय स्तर पर कार्यरत वैधानिक निकाय",
+      "question": "निम्नलिखित में से कौन-सा केंद्रीय स्तर पर कार्यरत एक वैधानिक निकाय (Statutory Machinery) है?"
+    },
+    "options": [
+      "(a) Central Implementation and Evaluation Committee",
+      "(b) Central Board for Workers' Education",
+      "(c) Standing Labour Committee",
+      "(d) Employees' State Insurance Corporation"
+    ],
+    "options_hi": [
+      "(a) केंद्रीय कार्यान्वयन और मूल्यांकन समिति",
+      "(b) श्रमिक शिक्षा के लिए केंद्रीय बोर्ड",
+      "(c) स्थायी श्रम समिति",
+      "(d) कर्मचारी राज्य बीमा निगम"
+    ],
+    "correctAnswer": "(d) Employees' State Insurance Corporation",
+    "correctAnswer_hi": "(d) कर्मचारी राज्य बीमा निगम",
+    "explanation": "कर्मचारी राज्य बीमा निगम (ESIC) एक वैधानिक निकाय है, जिसे कर्मचारी राज्य बीमा अधिनियम, 1948 के तहत स्थापित किया गया है। यह श्रमिकों को चिकित्सा और सामाजिक सुरक्षा लाभ प्रदान करता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Labour Laws",
+        "Social Security",
+        "Statutory Bodies",
+        "Governance",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "a911ee08-fb65-4617-ad63-f9d3c955f543"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Citizen Concept of Labour",
+      "question": "Which one of the following explains the 'Citizen Concept' of labour?"
+    },
+    "content_hi": {
+      "title": "श्रम का 'नागरिक अवधारणा' (Citizen Concept)",
+      "question": "निम्नलिखित में से कौन-सा 'श्रम की नागरिक अवधारणा' को स्पष्ट करता है?"
+    },
+    "options": [
+      "(a) Labour is largely regarded by the employers as operating organisations in industry",
+      "(b) Labour is affected by the law of demand and supply",
+      "(c) Labour is a cog in the machine",
+      "(d) Labour has a right to be consulted in regard to terms & conditions under which they are supposed to work"
+    ],
+    "options_hi": [
+      "(a) श्रमिकों को मुख्यतः नियोक्ताओं द्वारा उद्योगों में कार्य करने वाले संगठनों के रूप में माना जाता है",
+      "(b) श्रम मांग और आपूर्ति के नियम से प्रभावित होता है",
+      "(c) श्रम को मशीन के एक पुर्जे के रूप में माना जाता है",
+      "(d) श्रमिकों को उन शर्तों और परिस्थितियों के संबंध में परामर्श का अधिकार है जिनके अंतर्गत उन्हें कार्य करना होता है"
+    ],
+    "correctAnswer": "(d) Labour has a right to be consulted in regard to terms & conditions under which they are supposed to work",
+    "correctAnswer_hi": "(d) श्रमिकों को उन शर्तों और परिस्थितियों के संबंध में परामर्श का अधिकार है जिनके अंतर्गत उन्हें कार्य करना होता है",
+    "explanation": "'Citizen Concept' का तात्पर्य यह है कि श्रमिक केवल उत्पादन का साधन नहीं हैं, बल्कि वे अपने कार्य संबंधी शर्तों और नीतियों पर परामर्श का अधिकार रखते हैं। यह श्रम को सम्मानजनक नागरिक अधिकारों से जोड़ता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Labour Rights",
+        "Industrial Relations",
+        "Social Justice",
+        "Conceptual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "2ddd6fc6-c865-4f90-b1fb-332149b1d35a"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Author of 'The Evolution of Provincial Finance in British India'",
+      "question": "Who is the author of the work 'The Evolution of Provincial Finance in British India: A Study in the Provincial Decentralization of Imperial Finance'?"
+    },
+    "content_hi": {
+      "title": "'द इवोल्यूशन ऑफ प्रोविंशियल फाइनेंस इन ब्रिटिश इंडिया' के लेखक",
+      "question": "'द इवोल्यूशन ऑफ प्रोविंशियल फाइनेंस इन ब्रिटिश इंडिया: ए स्टडी इन द प्रोविंशियल डिसेंट्रलाइजेशन ऑफ इम्पीरियल फाइनेंस' नामक कृति के लेखक कौन हैं?"
+    },
+    "options": [
+      "(a) Dadabhai Naoroji",
+      "(b) Dr. B. R. Ambedkar",
+      "(c) M. N. Roy",
+      "(d) Jawaharlal Nehru"
+    ],
+    "options_hi": [
+      "(a) दादाभाई नौरोजी",
+      "(b) डॉ. बी. आर. अंबेडकर",
+      "(c) एम. एन. रॉय",
+      "(d) जवाहरलाल नेहरू"
+    ],
+    "correctAnswer": "(b) Dr. B. R. Ambedkar",
+    "correctAnswer_hi": "(b) डॉ. बी. आर. अंबेडकर",
+    "explanation": "‘The Evolution of Provincial Finance in British India’ डॉ. बी. आर. अंबेडकर की 1917 में प्रकाशित अर्थशास्त्र विषयक शोध कृति है, जिसमें उन्होंने औपनिवेशिक वित्तीय विकेंद्रीकरण की समीक्षा की थी।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Economics",
+        "Books and Authors",
+        "Indian Thinkers",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "3f1cc72d-5208-4908-bb70-dff426b05838"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Lord Curzon and His International Policy",
+      "question": "In the context of international affairs, which one of the following is correct about Lord Curzon?"
+    },
+    "content_hi": {
+      "title": "लॉर्ड कर्जन और उनकी अंतरराष्ट्रीय नीति",
+      "question": "अंतरराष्ट्रीय मामलों के संदर्भ में, निम्नलिखित में से कौन-सा कथन लॉर्ड कर्जन के संबंध में सही है?"
+    },
+    "options": [
+      "(a) He advocated a pacifist policy",
+      "(b) He wanted to establish a British sphere of influence over the Persian Gulf and Seistan",
+      "(c) He wanted England and Russia to become friends against China",
+      "(d) He wanted to lead a flag-waving mission to the USA"
+    ],
+    "options_hi": [
+      "(a) उन्होंने शांतिवादी नीति की वकालत की",
+      "(b) वे फारस की खाड़ी और सिस्तान पर ब्रिटिश प्रभाव क्षेत्र स्थापित करना चाहते थे",
+      "(c) वे इंग्लैंड और रूस को चीन के विरुद्ध मित्र बनाना चाहते थे",
+      "(d) वे अमेरिका के लिए ध्वज-लहराने वाले मिशन का नेतृत्व करना चाहते थे"
+    ],
+    "correctAnswer": "(b) He wanted to establish a British sphere of influence over the Persian Gulf and Seistan",
+    "correctAnswer_hi": "(b) वे फारस की खाड़ी और सिस्तान पर ब्रिटिश प्रभाव क्षेत्र स्थापित करना चाहते थे",
+    "explanation": "लॉर्ड कर्जन ब्रिटिश साम्राज्यवाद के कट्टर समर्थक थे। उन्होंने फारस की खाड़ी और सिस्तान क्षेत्रों में ब्रिटिश प्रभाव को मजबूत करने की नीति अपनाई ताकि रूस के प्रभाव को सीमित किया जा सके।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "British India",
+        "Foreign Policy",
+        "Imperialism",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "6b9a65f7-e3bf-47e0-a24b-0aaee61d1e53"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Peasant Associations in Kerala in the 1930s",
+      "question": "What were the peasant associations set up in Kerala in the 1930s called?"
+    },
+    "content_hi": {
+      "title": "1930 के दशक में केरल में स्थापित किसान संघ",
+      "question": "1930 के दशक में केरल में स्थापित किसान संघों को क्या कहा जाता था?"
+    },
+    "options": [
+      "(a) Kisan Sabha",
+      "(b) Kirti Kisan",
+      "(c) Karshaka Sangam",
+      "(d) Kisan Mocha"
+    ],
+    "options_hi": [
+      "(a) किसान सभा",
+      "(b) कीर्ति किसान",
+      "(c) कार्षक संघम",
+      "(d) किसान मोर्चा"
+    ],
+    "correctAnswer": "(c) Karshaka Sangam",
+    "correctAnswer_hi": "(c) कार्षक संघम",
+    "explanation": "1930 के दशक में केरल में किसानों के हितों की रक्षा और भूमि संबंधी मुद्दों पर संघर्ष के लिए ‘कार्षक संघम’ नामक किसान संगठन स्थापित किए गए थे। ये बाद में किसान सभा आंदोलन से भी जुड़े।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Peasant Movements",
+        "Kerala History",
+        "Freedom Struggle",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "02d139d0-53d9-435d-85df-4dd71fbaff19"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Reason Behind Congress Declaring 9th May as Ethiopia Day",
+      "question": "Why did the Congress declare 9th May to be Ethiopia Day?"
+    },
+    "content_hi": {
+      "title": "कांग्रेस द्वारा 9 मई को इथियोपिया दिवस घोषित करने का कारण",
+      "question": "कांग्रेस ने 9 मई को इथियोपिया दिवस क्यों घोषित किया?"
+    },
+    "options": [
+      "(a) Because the Ethiopians declared their support for the cause of Indian independence from British rule",
+      "(b) Because Ethiopia was attacked by Italy in 1936 and their resistance was considered freedom struggle",
+      "(c) Because Ethiopia became independent on that day",
+      "(d) Because Ethiopian leaders denounced Mussolini"
+    ],
+    "options_hi": [
+      "(a) क्योंकि इथियोपियनों ने ब्रिटिश शासन से भारतीय स्वतंत्रता के समर्थन की घोषणा की थी",
+      "(b) क्योंकि 1936 में इटली ने इथियोपिया पर आक्रमण किया था और उनका प्रतिरोध स्वतंत्रता संग्राम माना गया",
+      "(c) क्योंकि उस दिन इथियोपिया स्वतंत्र हुआ था",
+      "(d) क्योंकि इथियोपियाई नेताओं ने मुसोलिनी की निंदा की थी"
+    ],
+    "correctAnswer": "(b) Because Ethiopia was attacked by Italy in 1936 and their resistance was considered freedom struggle",
+    "correctAnswer_hi": "(b) क्योंकि 1936 में इटली ने इथियोपिया पर आक्रमण किया था और उनका प्रतिरोध स्वतंत्रता संग्राम माना गया",
+    "explanation": "1936 में इटली ने इथियोपिया पर हमला किया था। भारतीय राष्ट्रीय कांग्रेस ने इथियोपिया की स्वतंत्रता के संघर्ष के समर्थन में 9 मई को 'इथियोपिया दिवस' घोषित किया, जो साम्राज्यवाद विरोधी एकजुटता का प्रतीक था।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Indian National Congress",
+        "Anti-Imperialism",
+        "International Solidarity",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "1459f86f-fd9f-44fd-a8ad-5fcf3a98d5d6"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Subjects Under the State List in the Seventh Schedule",
+      "question": "Which one of the following comes under the 'State List' under the Seventh Schedule of the Constitution of India?"
+    },
+    "content_hi": {
+      "title": "भारतीय संविधान की सातवीं अनुसूची की राज्य सूची के विषय",
+      "question": "निम्नलिखित में से कौन-सा विषय भारतीय संविधान की सातवीं अनुसूची की 'राज्य सूची' के अंतर्गत आता है?"
+    },
+    "options": [
+      "(a) Relief of the disabled and unemployable",
+      "(b) Regulation of labour and safety in mines",
+      "(c) Regulation and control of manufacture, supply and distribution of salt",
+      "(d) Social security and social insurance"
+    ],
+    "options_hi": [
+      "(a) विकलांगों और बेरोजगारों के राहत का प्रावधान",
+      "(b) खानों में श्रम का विनियमन और सुरक्षा",
+      "(c) नमक के निर्माण, आपूर्ति और वितरण का विनियमन और नियंत्रण",
+      "(d) सामाजिक सुरक्षा और सामाजिक बीमा"
+    ],
+    "correctAnswer": "(a) Relief of the disabled and unemployable",
+    "correctAnswer_hi": "(a) विकलांगों और बेरोजगारों के राहत का प्रावधान",
+    "explanation": "सातवीं अनुसूची की राज्य सूची में 'विकलांगों और बेरोजगारों की राहत' राज्य के विषयों में शामिल है, जबकि अन्य विकल्प समवर्ती या केंद्रीय सूची से संबंधित हैं।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Indian Constitution",
+        "Seventh Schedule",
+        "State List",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "f9beb876-6b73-4f28-8db6-3d3623c7e560"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Assam in British India",
+      "question": "Which one of the following is correct about Assam in British India?"
+    },
+    "content_hi": {
+      "title": "ब्रिटिश भारत में असम के बारे में सही कथन",
+      "question": "निम्नलिखित में से कौन-सा कथन ब्रिटिश भारत में असम के संबंध में सही है?"
+    },
+    "options": [
+      "(a) It was a part of the North-East Frontier Agency",
+      "(b) It was made a province in 1865",
+      "(c) It was separated from Bengal in 1874 and along with Sylhet made into a Chief Commissioner's province",
+      "(d) It was a princely state ruled by Ahom Kings"
+    ],
+    "options_hi": [
+      "(a) यह नॉर्थ-ईस्ट फ्रंटियर एजेंसी का हिस्सा था",
+      "(b) इसे 1865 में एक प्रांत बनाया गया था",
+      "(c) इसे 1874 में बंगाल से अलग कर सिलहट के साथ एक मुख्य आयुक्त के प्रांत के रूप में बनाया गया",
+      "(d) यह अहोम राजाओं द्वारा शासित एक रियासत थी"
+    ],
+    "correctAnswer": "(c) It was separated from Bengal in 1874 and along with Sylhet made into a Chief Commissioner's province",
+    "correctAnswer_hi": "(c) इसे 1874 में बंगाल से अलग कर सिलहट के साथ एक मुख्य आयुक्त के प्रांत के रूप में बनाया गया",
+    "explanation": "1874 में ब्रिटिश सरकार ने असम को बंगाल से अलग कर सिलहट को इसके साथ जोड़कर एक 'मुख्य आयुक्त का प्रांत' (Chief Commissioner's Province) बनाया। इससे पहले यह बंगाल प्रेसीडेंसी का हिस्सा था।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "British India",
+        "Assam History",
+        "Indian Provinces",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "a746e116-5100-42f4-9487-b79cd485f730"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Introduction of Medical Benefit as a Non-Cash Benefit in India",
+      "question": "For the first time in India, medical benefit as a non-cash benefit was provided under which Act?"
+    },
+    "content_hi": {
+      "title": "भारत में गैर-नकद लाभ के रूप में चिकित्सा लाभ का प्रारंभ",
+      "question": "भारत में पहली बार गैर-नकद लाभ के रूप में चिकित्सा लाभ किस अधिनियम के अंतर्गत प्रदान किया गया था?"
+    },
+    "options": [
+      "(a) The Employees' State Insurance Act, 1948",
+      "(b) The Factories Act, 1948",
+      "(c) The Maternity Benefit Act, 1961",
+      "(d) The Mines Act, 1952"
+    ],
+    "options_hi": [
+      "(a) कर्मचारी राज्य बीमा अधिनियम, 1948",
+      "(b) कारखाना अधिनियम, 1948",
+      "(c) मातृत्व लाभ अधिनियम, 1961",
+      "(d) खान अधिनियम, 1952"
+    ],
+    "correctAnswer": "(a) The Employees' State Insurance Act, 1948",
+    "correctAnswer_hi": "(a) कर्मचारी राज्य बीमा अधिनियम, 1948",
+    "explanation": "भारत में पहली बार गैर-नकद चिकित्सा लाभ कर्मचारी राज्य बीमा अधिनियम, 1948 के तहत प्रदान किए गए थे। इस अधिनियम ने संगठित क्षेत्र के श्रमिकों के लिए चिकित्सा एवं सामाजिक सुरक्षा की व्यवस्था की।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Labour Welfare",
+        "Social Security",
+        "Labour Laws",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "16609e51-04fc-426c-87e0-5c2ea0930b16"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Establishment of Bharat Stree Mahamandal in 1910",
+      "question": "Who set up the Bharat Stree Mahamandal which first met in Allahabad in 1910?"
+    },
+    "content_hi": {
+      "title": "1910 में भारत स्त्री महामंडल की स्थापना",
+      "question": "1910 में इलाहाबाद में पहली बार आयोजित 'भारत स्त्री महामंडल' की स्थापना किसने की थी?"
+    },
+    "options": [
+      "(a) Annie Besant",
+      "(b) Meherbai Tata",
+      "(c) Saraladevi Chaudhurani",
+      "(d) Tarabai Shinde"
+    ],
+    "options_hi": [
+      "(a) एनी बेसेन्ट",
+      "(b) मेहरबाई टाटा",
+      "(c) सरला देवी चौधरानी",
+      "(d) ताराबाई शिंदे"
+    ],
+    "correctAnswer": "(c) Saraladevi Chaudhurani",
+    "correctAnswer_hi": "(c) सरला देवी चौधरानी",
+    "explanation": "‘भारत स्त्री महामंडल’ की स्थापना 1910 में सरला देवी चौधरानी ने की थी। इसका उद्देश्य भारतीय महिलाओं की शिक्षा और सामाजिक स्थिति में सुधार करना था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Women Reform Movements",
+        "Social Reformers",
+        "Modern India",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "6a40bb4c-c101-4f2d-bd62-191f40830efd"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Features of the Non-Cooperation Movement (1920-22)",
+      "question": "Which one of the following is not a feature of the Non-Cooperation Movement (NCM)?"
+    },
+    "content_hi": {
+      "title": "असहयोग आंदोलन (1920-22) की विशेषताएँ",
+      "question": "निम्नलिखित में से कौन-सी असहयोग आंदोलन (NCM) की विशेषता नहीं है?"
+    },
+    "options": [
+      "(a) Economic boycott was intense and successful",
+      "(b) The middle class participated in very large numbers in the movement",
+      "(c) It was marked by uneven geographical spread and regional variations",
+      "(d) Along with NCM, other Gandhian social reform movements like the anti-liquor movement achieved some success"
+    ],
+    "options_hi": [
+      "(a) आर्थिक बहिष्कार तीव्र और सफल था",
+      "(b) मध्यम वर्ग ने आंदोलन में बहुत बड़ी संख्या में भाग लिया",
+      "(c) आंदोलन असमान भौगोलिक प्रसार और क्षेत्रीय विविधताओं से चिह्नित था",
+      "(d) असहयोग आंदोलन के साथ-साथ अन्य गांधीवादी सामाजिक सुधार आंदोलनों जैसे मद्य निषेध आंदोलन को भी कुछ सफलता मिली"
+    ],
+    "correctAnswer": "(a) Economic boycott was intense and successful",
+    "correctAnswer_hi": "(a) आर्थिक बहिष्कार तीव्र और सफल था",
+    "explanation": "असहयोग आंदोलन के दौरान आर्थिक बहिष्कार का प्रभाव सीमित रहा और यह सभी क्षेत्रों में समान रूप से सफल नहीं हुआ। अन्य सभी कथन असहयोग आंदोलन की वास्तविक विशेषताएँ हैं।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Freedom Struggle",
+        "Gandhian Movements",
+        "Non-Cooperation Movement",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "90c5a607-0d0b-415e-b2be-892a63e9c793"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Publication Started by Khan Abdul Ghaffar Khan in 1928",
+      "question": "Which one of the following publications was started by Khan Abdul Ghaffar Khan in 1928?"
+    },
+    "content_hi": {
+      "title": "1928 में खान अब्दुल गफ्फार खान द्वारा शुरू किया गया प्रकाशन",
+      "question": "निम्नलिखित में से कौन-सा प्रकाशन 1928 में खान अब्दुल गफ्फार खान द्वारा शुरू किया गया था?"
+    },
+    "options": [
+      "(a) Pakhtun",
+      "(b) Khudai Khidmatgar",
+      "(c) Young India",
+      "(d) India Awakens"
+    ],
+    "options_hi": [
+      "(a) पठान (पख्तून)",
+      "(b) खुदाई खिदमतगार",
+      "(c) यंग इंडिया",
+      "(d) इंडिया अवेकन्स"
+    ],
+    "correctAnswer": "(a) Pakhtun",
+    "correctAnswer_hi": "(a) पठान (पख्तून)",
+    "explanation": "खान अब्दुल गफ्फार खान ने 1928 में ‘पख्तून’ नामक प्रकाशन शुरू किया था। इसका उद्देश्य पश्तूनों में सामाजिक सुधार, शिक्षा और अहिंसक प्रतिरोध के विचारों का प्रसार करना था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Freedom Struggle",
+        "Khan Abdul Ghaffar Khan",
+        "Publications",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "06e78f81-a846-4ad6-9cb5-89b2e029a880"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Founder of Arya Mahila Samaj in the Early 1880s",
+      "question": "Who among the following was the founder of the Arya Mahila Samaj in the early 1880s?"
+    },
+    "content_hi": {
+      "title": "1880 के दशक की शुरुआत में आर्य महिला समाज की संस्थापक",
+      "question": "निम्नलिखित में से किसने 1880 के दशक की शुरुआत में आर्य महिला समाज की स्थापना की थी?"
+    },
+    "options": [
+      "(a) Swami Dayanand Saraswati",
+      "(b) Swami Vivekananda",
+      "(c) Pandita Ramabai",
+      "(d) Ramabai Ranade"
+    ],
+    "options_hi": [
+      "(a) स्वामी दयानंद सरस्वती",
+      "(b) स्वामी विवेकानंद",
+      "(c) पंडिता रमाबाई",
+      "(d) रमाबाई रणाडे"
+    ],
+    "correctAnswer": "(c) Pandita Ramabai",
+    "correctAnswer_hi": "(c) पंडिता रमाबाई",
+    "explanation": "पंडिता रमाबाई ने 1880 के दशक की शुरुआत में ‘आर्य महिला समाज’ की स्थापना की थी, जिसका उद्देश्य महिलाओं की शिक्षा और सामाजिक सुधार को बढ़ावा देना था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Women Reform Movements",
+        "Social Reformers",
+        "Education",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "cdcbe638-5618-40f3-8c2e-f2cfd446218b"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "First Indian Journalist Imprisoned for His Duty",
+      "question": "Who among the following is considered to be the first Indian to go to jail in performance of his duty as a journalist?"
+    },
+    "content_hi": {
+      "title": "पत्रकारिता के कर्तव्य के निर्वहन में जेल जाने वाले पहले भारतीय",
+      "question": "निम्नलिखित में से किसे अपने पत्रकारिता के कर्तव्य का पालन करने के लिए जेल जाने वाला पहला भारतीय माना जाता है?"
+    },
+    "options": [
+      "(a) Mahatma Gandhi",
+      "(b) Rabindranath Tagore",
+      "(c) Lokmanya Tilak",
+      "(d) Surendranath Banerjee"
+    ],
+    "options_hi": [
+      "(a) महात्मा गांधी",
+      "(b) रवीन्द्रनाथ टैगोर",
+      "(c) लोकमान्य तिलक",
+      "(d) सुरेन्द्रनाथ बनर्जी"
+    ],
+    "correctAnswer": "(d) Surendranath Banerjee",
+    "correctAnswer_hi": "(d) सुरेन्द्रनाथ बनर्जी",
+    "explanation": "सुरेन्द्रनाथ बनर्जी को पत्रकारिता करते समय अपने कर्तव्यों के निर्वहन में जेल जाने वाला पहला भारतीय माना जाता है। उन्होंने 'द बंगाली' नामक समाचारपत्र के माध्यम से राजनीतिक और सामाजिक मुद्दों को उठाया।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Indian Journalism",
+        "Freedom Struggle",
+        "Surendranath Banerjee",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "968c2095-c5a7-4ec4-9b44-13f2d078412f"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Formulation of National Student Startup Policy, 2016",
+      "question": "Which one of the following bodies has formulated the 'National Student Startup Policy' launched by the President of India in November 2016?"
+    },
+    "content_hi": {
+      "title": "राष्ट्रीय छात्र स्टार्टअप नीति, 2016 का निर्माण",
+      "question": "नवंबर 2016 में भारत के राष्ट्रपति द्वारा शुरू की गई 'राष्ट्रीय छात्र स्टार्टअप नीति' का निर्माण निम्नलिखित में से किस संस्था ने किया था?"
+    },
+    "options": [
+      "(a) UGC",
+      "(b) NCERT",
+      "(c) AIU",
+      "(d) AICTE"
+    ],
+    "options_hi": [
+      "(a) यूजीसी",
+      "(b) एनसीईआरटी",
+      "(c) एआईयू",
+      "(d) एआईसीटीई"
+    ],
+    "correctAnswer": "(d) AICTE",
+    "correctAnswer_hi": "(d) एआईसीटीई",
+    "explanation": "‘राष्ट्रीय छात्र स्टार्टअप नीति’ (National Student Startup Policy) का निर्माण अखिल भारतीय तकनीकी शिक्षा परिषद (AICTE) द्वारा किया गया था। इसका उद्देश्य नवाचार और उद्यमशीलता को उच्च शिक्षा संस्थानों में बढ़ावा देना था।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Education Policy",
+        "AICTE",
+        "Startup Policy",
+        "Current Affairs",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "5c510b73-d5a2-42e9-b909-45532e7ec420"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Chairman of the Working Group on Producer Price Index (PPI), 2014",
+      "question": "Who among the following was the Chairman of the Working Group for determining the methodology for construction of Producer Price Index (PPI) in India (2014)?"
+    },
+    "content_hi": {
+      "title": "भारत में उत्पादक मूल्य सूचकांक (PPI) निर्माण की कार्यप्रणाली निर्धारित करने वाली कार्य समूह के अध्यक्ष (2014)",
+      "question": "भारत में उत्पादक मूल्य सूचकांक (PPI) के निर्माण की कार्यप्रणाली निर्धारित करने के लिए गठित कार्य समूह (2014) के अध्यक्ष कौन थे?"
+    },
+    "options": [
+      "(a) Soumitra Choudhary",
+      "(b) D. V. Subbarao",
+      "(c) Abhijit Sen",
+      "(d) B. N. Goldar"
+    ],
+    "options_hi": [
+      "(a) सौमित्र चौधरी",
+      "(b) डी. वी. सुब्बाराव",
+      "(c) अभिजीत सेन",
+      "(d) बी. एन. गोल्डर"
+    ],
+    "correctAnswer": "(d) B. N. Goldar",
+    "correctAnswer_hi": "(d) बी. एन. गोल्डर",
+    "explanation": "2014 में भारत में उत्पादक मूल्य सूचकांक (PPI) की कार्यप्रणाली तय करने के लिए गठित कार्य समूह के अध्यक्ष प्रोफेसर बी. एन. गोल्डर थे। इस समूह ने थोक मूल्य सूचकांक (WPI) के स्थान पर PPI प्रणाली अपनाने की सिफारिश की।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Producer Price Index",
+        "Statistics",
+        "Economic Indicators",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "c4369e43-c8a3-4dc6-bbea-fae05d29f2d0"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Self-Governance under Panchayats (Extension to Scheduled Areas) Act, 1996",
+      "question": "Panchayats (Extension to Scheduled Areas) Act, 1996 permits self-governance of natural resources by which of the following?"
+    },
+    "content_hi": {
+      "title": "पंचायत (अनुसूचित क्षेत्रों तक विस्तार) अधिनियम, 1996 के अंतर्गत प्राकृतिक संसाधनों का स्वशासन",
+      "question": "पंचायत (अनुसूचित क्षेत्रों तक विस्तार) अधिनियम, 1996 के अनुसार प्राकृतिक संसाधनों का स्वशासन निम्नलिखित में से किसके द्वारा किया जाता है?"
+    },
+    "options": [
+      "(a) Gram Sabha",
+      "(b) Gram Panchayat",
+      "(c) Chairman of Gram Sabha",
+      "(d) Forest dwellers of a village situated in areas mentioned in 5th Schedule of the Constitution of India"
+    ],
+    "options_hi": [
+      "(a) ग्राम सभा",
+      "(b) ग्राम पंचायत",
+      "(c) ग्राम सभा के अध्यक्ष",
+      "(d) भारत के संविधान की पाँचवीं अनुसूची में उल्लिखित क्षेत्रों में स्थित गाँव के वनवासी"
+    ],
+    "correctAnswer": "(a) Gram Sabha",
+    "correctAnswer_hi": "(a) ग्राम सभा",
+    "explanation": "पंचायत (अनुसूचित क्षेत्रों तक विस्तार) अधिनियम, 1996 (PESA) के तहत अनुसूचित क्षेत्रों में ग्राम सभा को प्राकृतिक संसाधनों के प्रबंधन और संरक्षण का अधिकार दिया गया है, जिससे स्थानीय स्वशासन को सशक्त बनाया जा सके।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "PESA Act",
+        "Local Governance",
+        "Tribal Areas",
+        "Gram Sabha",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "071b260d-2f80-4607-a509-8cd1f5a02836"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Scheme for All-Round Development of Adolescent Girls (11–18 Years)",
+      "question": "Which one of the following schemes is aimed at all-round development of adolescent girls in the age group of 11–18 years and making them self-reliant?"
+    },
+    "content_hi": {
+      "title": "11–18 वर्ष की किशोरियों के सर्वांगीण विकास के लिए योजना",
+      "question": "निम्नलिखित में से कौन-सी योजना 11–18 वर्ष की किशोरियों के सर्वांगीण विकास और उन्हें आत्मनिर्भर बनाने के उद्देश्य से शुरू की गई है?"
+    },
+    "options": [
+      "(a) RGSEAG",
+      "(b) IGMSY",
+      "(c) NMEW",
+      "(d) RMK"
+    ],
+    "options_hi": [
+      "(a) आरजीएसईएजी (राजीव गांधी योजना किशोरी बालिका सशक्तिकरण के लिए)",
+      "(b) आईजीएमएसवाई (इंदिरा गांधी मातृत्व सहयोग योजना)",
+      "(c) एनएमईडब्ल्यू (राष्ट्रीय महिला सशक्तिकरण मिशन)",
+      "(d) आरएमके (राष्ट्रीय महिला कोष)"
+    ],
+    "correctAnswer": "(a) RGSEAG",
+    "correctAnswer_hi": "(a) आरजीएसईएजी (राजीव गांधी योजना किशोरी बालिका सशक्तिकरण के लिए)",
+    "explanation": "‘राजीव गांधी योजना किशोरी बालिका सशक्तिकरण के लिए’ (RGSEAG–Sabla) का उद्देश्य 11–18 वर्ष की किशोरियों के पोषण, स्वास्थ्य, शिक्षा और कौशल विकास के माध्यम से सर्वांगीण विकास और आत्मनिर्भरता सुनिश्चित करना है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "social_justice",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Government Schemes",
+        "Women Empowerment",
+        "Adolescent Development",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "4b153717-410b-475e-a570-90c2c13c0b51"
+  },
+  {
+    "type": "multiple-statement-question",
+    "content": {
+      "title": "Sectors Eligible for Establishing a Stand-Up Enterprise",
+      "prompt": "A stand-up enterprise can be established in which of the following sectors?",
+      "statements": [
+        {
+          "label": "1",
+          "text": "Farming sector"
+        },
+        {
+          "label": "2",
+          "text": "Manufacturing sector"
+        },
+        {
+          "label": "3",
+          "text": "Service sector"
+        },
+        {
+          "label": "4",
+          "text": "Trading sector"
+        }
+      ]
+    },
+    "content_hi": {
+      "title": "स्टैंड-अप एंटरप्राइज की स्थापना के लिए पात्र क्षेत्र",
+      "prompt": "निम्नलिखित में से किन क्षेत्रों में एक स्टैंड-अप एंटरप्राइज स्थापित किया जा सकता है?",
+      "statements": [
+        {
+          "label": "1",
+          "text": "कृषि क्षेत्र"
+        },
+        {
+          "label": "2",
+          "text": "विनिर्माण क्षेत्र"
+        },
+        {
+          "label": "3",
+          "text": "सेवा क्षेत्र"
+        },
+        {
+          "label": "4",
+          "text": "व्यापार क्षेत्र"
+        }
+      ]
+    },
+    "options": [
+      "(a) 1, 2 and 4",
+      "(b) 1, 3 and 4",
+      "(c) 1, 2 and 3",
+      "(d) 2, 3 and 4"
+    ],
+    "options_hi": [
+      "(a) 1, 2 और 4",
+      "(b) 1, 3 और 4",
+      "(c) 1, 2 और 3",
+      "(d) 2, 3 और 4"
+    ],
+    "correctAnswer": "(d) 2, 3 and 4",
+    "correctAnswer_hi": "(d) 2, 3 और 4",
+    "explanation": "स्टैंड-अप इंडिया योजना के तहत उद्यम केवल विनिर्माण, सेवा और व्यापार क्षेत्रों में स्थापित किए जा सकते हैं। कृषि क्षेत्र इसमें शामिल नहीं है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "economics",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Government Schemes",
+        "Entrepreneurship",
+        "Stand-Up India",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "2f9c7fae-a5ad-4456-8ed1-314b10ae8d2c"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Non-Member Country of the World Trade Organization (WTO)",
+      "question": "Which one of the following countries is not a member of the World Trade Organization (WTO)?"
+    },
+    "content_hi": {
+      "title": "विश्व व्यापार संगठन (WTO) का सदस्य नहीं होने वाला देश",
+      "question": "निम्नलिखित में से कौन-सा देश विश्व व्यापार संगठन (WTO) का सदस्य नहीं है?"
+    },
+    "options": [
+      "(a) Japan",
+      "(b) China",
+      "(c) Iran",
+      "(d) Russia"
+    ],
+    "options_hi": [
+      "(a) जापान",
+      "(b) चीन",
+      "(c) ईरान",
+      "(d) रूस"
+    ],
+    "correctAnswer": "(c) Iran",
+    "correctAnswer_hi": "(c) ईरान",
+    "explanation": "ईरान विश्व व्यापार संगठन (WTO) का सदस्य नहीं है। हालांकि उसने सदस्यता के लिए आवेदन किया था, लेकिन प्रतिबंधों और राजनीतिक कारणों से उसकी प्रक्रिया लंबित है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "international_relations",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "WTO",
+        "International Organizations",
+        "Trade",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "5aa42389-216d-428c-853c-dba855773ee1"
   }
 ]

@@ -25,14 +25,20 @@ function hasValue(value) {
   return Boolean(value);
 }
 
-function getLocalizedValue(question, language, baseKey) {
-  const isHindi = language === "hi";
-  const primaryKey = isHindi ? `${baseKey}_hi` : baseKey;
-  const fallbackKey = isHindi ? baseKey : `${baseKey}_hi`;
+function getLocalizedValue(question, language, baseKey, options = {}) {
+  const { fallbackToOtherLanguage = true } = options;
+  const suffix = language === "hi" ? "_hi" : "";
+  const alternateSuffix = language === "hi" ? "" : "_hi";
+  const primaryKey = `${baseKey}${suffix}`;
+  const fallbackKey = `${baseKey}${alternateSuffix}`;
 
   const primary = question?.[primaryKey];
   if (hasValue(primary)) {
     return { value: primary, isFallback: false };
+  }
+
+  if (!fallbackToOtherLanguage) {
+    return { value: undefined, isFallback: false };
   }
 
   const fallback = question?.[fallbackKey];
@@ -104,11 +110,20 @@ export function QuestionRenderer({ question }) {
   const { value: localizedExplanationRaw } = getLocalizedValue(
     question,
     language,
-    "explanation"
+    "explanation",
+    { fallbackToOtherLanguage: false }
   );
 
   const content = localizedContentRaw ?? {};
   const prompt = getPromptText(question, content, language);
+  const questionText =
+    typeof content?.question === "string" && content.question.trim()
+      ? content.question.trim()
+      : prompt;
+  const supplementalPrompt =
+    typeof content?.prompt === "string" && content.prompt.trim()
+      ? content.prompt.trim()
+      : "";
   const statements = Array.isArray(content?.statements)
     ? content.statements
     : [];
@@ -118,10 +133,9 @@ export function QuestionRenderer({ question }) {
       ? localizedAnswerRaw.trim()
       : question?.correctAnswer?.trim();
   const explanationText =
-    typeof localizedExplanationRaw === "string" &&
-    localizedExplanationRaw.trim()
-      ? localizedExplanationRaw
-      : question?.explanation || "";
+    typeof localizedExplanationRaw === "string"
+      ? localizedExplanationRaw.trim()
+      : "";
 
   const showExplanation = Boolean(selected);
   const isCorrect =
@@ -133,23 +147,26 @@ export function QuestionRenderer({ question }) {
     ? "border-emerald-300 bg-emerald-50 text-emerald-900"
     : "border-rose-300 bg-rose-50 text-rose-900";
 
-  const explanationFallback = isCorrect
+  const explanationSupportText = isCorrect
     ? "Great job! That is the correct answer."
     : correctAnswer
     ? `Correct answer: ${correctAnswer}`
     : "Review the material and try again.";
 
+  const languageLabel = language === "hi" ? "Hindi" : "English";
+  const otherLanguageLabel = language === "hi" ? "English" : "Hindi";
+
+  const explanationFallback = explanationText
+    ? ""
+    : `${languageLabel} explanation unavailable. ${explanationSupportText}`;
+
   const contentFallbackMessage = isContentFallback
-    ? language === "hi"
-      ? "Hindi version unavailable — showing English text."
-      : "English version unavailable — showing Hindi text."
+    ? `${languageLabel} content unavailable - showing ${otherLanguageLabel} version.`
     : null;
 
   const optionsFallbackMessage =
     isOptionsFallback && options.length
-      ? language === "hi"
-        ? "Hindi options unavailable — showing English choices."
-        : "English options unavailable — showing Hindi choices."
+      ? `${languageLabel} options unavailable - showing ${otherLanguageLabel} choices.`
       : null;
 
   return (
@@ -179,14 +196,14 @@ export function QuestionRenderer({ question }) {
         {contentFallbackMessage ? (
           <p className="text-xs text-amber-600">{contentFallbackMessage}</p>
         ) : null}
-        {question?.type === "simple-multiple-choice" && (
+        {question?.type === "simple-multiple-choice" && questionText ? (
           <p className="text-base leading-relaxed text-slate-900">
-            {question.content.question}
+            {questionText}
           </p>
-        )}
-        {question.content.prompt ? (
+        ) : null}
+        {supplementalPrompt ? (
           <p className="text-base leading-relaxed text-slate-900">
-            {question.content.prompt}
+            {supplementalPrompt}
           </p>
         ) : null}
 
@@ -231,11 +248,9 @@ export function QuestionRenderer({ question }) {
           </div>
         )}
       </div>
-      {question.content.prompt && (
+      {supplementalPrompt && questionText && (
         <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
-          <p className="font-semibold text-blue-900">
-            {question.content.question}
-          </p>
+          <p className="font-semibold text-blue-900">{questionText}</p>
         </div>
       )}
 
