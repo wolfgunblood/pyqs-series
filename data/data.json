@@ -2711,5 +2711,465 @@
       "similarQuestions": []
     },
     "id": "6fb0f539-1615-4ced-a84c-50b901ab0e31"
+  },
+  {
+    "type": "multiple-statement-question",
+    "content": {
+      "title": "Reasons for the Lack of Economic Development in 19th Century India",
+      "prompt": "Which of the following was/were the reason/reasons for the lack of economic development in India in the 19th century?",
+      "statements": [
+        {
+          "label": "1",
+          "text": "Officially the British government was committed to the policy of laissez-faire, but it was actually a policy of discriminatory intervention."
+        },
+        {
+          "label": "2",
+          "text": "European entrepreneurs had connections to banks and agency houses, while Indians had to rely on kin, family and caste men."
+        },
+        {
+          "label": "3",
+          "text": "When plantations were transferred to individual capitalist ownership, native investors were deliberately ignored."
+        }
+      ],
+      "question": "Select the correct answer using the codes given below:"
+    },
+    "content_hi": {
+      "title": "उन्नीसवीं सदी में भारत में आर्थिक विकास की कमी के कारण",
+      "prompt": "निम्नलिखित में से कौन-सा/कौन-से कारण उन्नीसवीं सदी में भारत में आर्थिक विकास की कमी के लिए उत्तरदायी था/थे?",
+      "statements": [
+        {
+          "label": "1",
+          "text": "औपचारिक रूप से ब्रिटिश सरकार 'लेसेज़-फेयर' नीति के प्रति प्रतिबद्ध थी, पर वास्तव में यह भेदभावपूर्ण हस्तक्षेप की नीति थी।"
+        },
+        {
+          "label": "2",
+          "text": "यूरोपीय उद्यमियों के बैंकों और एजेंसी हाउसों से संबंध थे, जबकि भारतीयों को रिश्तेदारों, परिवार और जाति-समूह के लोगों पर निर्भर रहना पड़ता था।"
+        },
+        {
+          "label": "3",
+          "text": "जब बागान व्यक्तिगत पूंजीपति स्वामित्व को स्थानांतरित किए गए, तब देशी निवेशकों की जानबूझकर उपेक्षा की गई।"
+        }
+      ],
+      "question": "नीचे दिए गए कूट का प्रयोग करके सही उत्तर चुनिए:"
+    },
+    "options": [
+      "(a) 1 only",
+      "(b) 2 and 3 only",
+      "(c) 1 and 3 only",
+      "(d) 1, 2 and 3"
+    ],
+    "options_hi": [
+      "(a) केवल 1",
+      "(b) केवल 2 और 3",
+      "(c) केवल 1 और 3",
+      "(d) 1, 2 और 3"
+    ],
+    "correctAnswer": "(d) 1, 2 and 3",
+    "correctAnswer_hi": "(d) 1, 2 और 3",
+    "explanation": "सभी दिए गए कारक 19वीं सदी में भारत की आर्थिक ठहराव के लिए जिम्मेदार थे क्योंकि ब्रिटिश आर्थिक नीतियाँ यूरोपीय हितों को प्राथमिकता देती थीं और भारतीय उद्यमियों की उपेक्षा करती थीं।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Economics",
+        "Colonial India",
+        "Industrial Policy",
+        "Historical Development",
+        "Statement Based"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "7a121fd8-a4dd-46cf-9e88-2d6402555dd8"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "First Director General of the Archaeological Survey of India",
+      "question": "Who was the first Director General of the Archaeological Survey of India?"
+    },
+    "content_hi": {
+      "title": "भारतीय पुरातत्व सर्वेक्षण के प्रथम महानिदेशक",
+      "question": "भारतीय पुरातत्व सर्वेक्षण (Archaeological Survey of India) के प्रथम महानिदेशक कौन थे?"
+    },
+    "options": [
+      "(a) John Marshall",
+      "(b) Alexander Cunningham",
+      "(c) Mortimer Wheeler",
+      "(d) Francis Buchanan"
+    ],
+    "options_hi": [
+      "(a) जॉन मार्शल",
+      "(b) अलेक्ज़ेंडर कनिंघम",
+      "(c) मॉर्टिमर व्हीलर",
+      "(d) फ्रांसिस बुकेनन"
+    ],
+    "correctAnswer": "(b) Alexander Cunningham",
+    "correctAnswer_hi": "(b) अलेक्ज़ेंडर कनिंघम",
+    "explanation": "अलेक्ज़ेंडर कनिंघम को 1861 में भारतीय पुरातत्व सर्वेक्षण के पहले महानिदेशक के रूप में नियुक्त किया गया था। उन्होंने भारत में पुरातात्विक अनुसंधान की नींव रखी।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "History",
+        "Art & Culture",
+        "Archaeology",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "658ec3d8-c20e-4b8f-8e9d-0ee381650db1"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Autobiography 'Looking Back' and Women's Education in Poona",
+      "question": "Which social reformer's autobiography 'Looking Back' describes his experiences in setting up schools for women in Poona in the 1890s?"
+    },
+    "content_hi": {
+      "title": "आत्मकथा 'लुकिंग बैक' और पुणे में महिला शिक्षा",
+      "question": "किस समाज सुधारक की आत्मकथा 'लुकिंग बैक' में 1890 के दशक में पुणे में महिलाओं के लिए विद्यालय स्थापित करने के उनके अनुभवों का वर्णन है?"
+    },
+    "options": [
+      "(a) Dhondo Keshav Karve",
+      "(b) K. T. Telang",
+      "(c) Jyotirao Phule",
+      "(d) Dr. B. R. Ambedkar"
+    ],
+    "options_hi": [
+      "(a) धोंडो केशव कर्वे",
+      "(b) के. टी. तेलंग",
+      "(c) ज्योतिराव फुले",
+      "(d) डॉ. बी. आर. अंबेडकर"
+    ],
+    "correctAnswer": "(a) Dhondo Keshav Karve",
+    "correctAnswer_hi": "(a) धोंडो केशव कर्वे",
+    "explanation": "धोंडो केशव कर्वे की आत्मकथा 'लुकिंग बैक' में उन्होंने 1890 के दशक में पुणे में महिलाओं के लिए विद्यालय स्थापित करने के अपने प्रयासों और अनुभवों का विस्तृत वर्णन किया है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Social Reformers",
+        "Education",
+        "Women Empowerment",
+        "Autobiography",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "1d5c64ff-6c2a-40a2-acde-fb51406984d7"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Works of Begum Rokeya",
+      "question": "Which of the following works was not contributed by the famous social reformer Begum Rokeya?"
+    },
+    "content_hi": {
+      "title": "बेगम रुकैया के कार्य",
+      "question": "निम्नलिखित में से कौन-सा कार्य प्रसिद्ध समाज सुधारक बेगम रुकैया द्वारा नहीं लिखा गया था?"
+    },
+    "options": [
+      "(a) Ardhangi",
+      "(b) Griha",
+      "(c) Mother India",
+      "(d) Sultana's Dreams"
+    ],
+    "options_hi": [
+      "(a) अर्धांगी",
+      "(b) गृह",
+      "(c) मदर इंडिया",
+      "(d) सुल्ताना का सपना"
+    ],
+    "correctAnswer": "(c) Mother India",
+    "correctAnswer_hi": "(c) मदर इंडिया",
+    "explanation": "‘मदर इंडिया’ का लेखन कैथरीन मेयो ने किया था, जबकि बेगम रुकैया ने 'सुल्ताना का सपना' जैसी कृतियाँ लिखीं जो महिला सशक्तिकरण और सामाजिक सुधार पर आधारित थीं।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "modern_history",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Social Reformers",
+        "Women Empowerment",
+        "Literature",
+        "Art & Culture",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "ec5c9cfe-3791-4ae8-9f8b-3b42e6aea39b"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Features of Mughal Chronicles",
+      "question": "Which one of the following is not a characteristic of Mughal Chronicles?"
+    },
+    "content_hi": {
+      "title": "मुगल वृतांतों की विशेषताएँ",
+      "question": "निम्नलिखित में से कौन-सा मुगल वृतांतों (Chronicles) की विशेषता नहीं है?"
+    },
+    "options": [
+      "(a) They present a continuous chronological record of events",
+      "(b) They were a repository of factual information about the Mughals",
+      "(c) They allow us to understand how imperial ideologies were created and disseminated",
+      "(d) They contain brief biographies of the authors of the Chronicles"
+    ],
+    "options_hi": [
+      "(a) वे घटनाओं का सतत कालानुक्रमिक विवरण प्रस्तुत करते हैं",
+      "(b) वे मुगलों के बारे में तथ्यात्मक जानकारी का भंडार थे",
+      "(c) वे यह समझने में सहायता करते हैं कि शाही विचारधाराएँ कैसे निर्मित और प्रसारित हुईं",
+      "(d) उनमें वृतांतों के लेखकों की संक्षिप्त जीवनी शामिल होती है"
+    ],
+    "correctAnswer": "(d) They contain brief biographies of the authors of the Chronicles",
+    "correctAnswer_hi": "(d) उनमें वृतांतों के लेखकों की संक्षिप्त जीवनी शामिल होती है",
+    "explanation": "मुगल वृतांतों का उद्देश्य शाही सत्ता और विचारधारा को प्रस्तुत करना था। इनमें लेखकों की जीवनी शामिल नहीं होती थी, बल्कि शासकों के शासन और उपलब्धियों का विवरण मिलता है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "art_culture",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "History",
+        "Mughal Empire",
+        "Chronicles",
+        "Culture",
+        "Statement Based"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "e291a602-9d67-40fe-a18e-27148e4b09f0"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Overseas Citizen of India (OCI)",
+      "question": "Which one of the following statements regarding an Overseas Citizen of India (OCI) is not correct?"
+    },
+    "content_hi": {
+      "title": "भारतीय प्रवासी नागरिक (OCI)",
+      "question": "निम्नलिखित में से कौन-सा कथन भारतीय प्रवासी नागरिक (OCI) के संबंध में सही नहीं है?"
+    },
+    "options": [
+      "(a) An OCI is a citizen of another country",
+      "(b) An OCI possesses multiple-entry long-term visa for development",
+      "(c) An OCI is at par with NRI in all matters",
+      "(d) An OCI is not entitled to the fundamental right to equality of opportunity in public employment"
+    ],
+    "options_hi": [
+      "(a) ओसीआई किसी अन्य देश का नागरिक होता है",
+      "(b) ओसीआई को दीर्घकालिक बहु-प्रवेश वीजा प्राप्त होता है",
+      "(c) ओसीआई सभी मामलों में एनआरआई के समान होता है",
+      "(d) ओसीआई को सार्वजनिक रोजगार में अवसर की समानता के मौलिक अधिकार का हकदार नहीं होता"
+    ],
+    "correctAnswer": "(c) An OCI is at par with NRI in all matters",
+    "correctAnswer_hi": "(c) ओसीआई सभी मामलों में एनआरआई के समान होता है",
+    "explanation": "ओसीआई को भारत का नागरिक नहीं माना जाता और वह सभी मामलों में एनआरआई के समान नहीं होता। उसे राजनीतिक अधिकार या सार्वजनिक रोजगार के अवसर नहीं मिलते।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Citizenship",
+        "Constitution",
+        "Fundamental Rights",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "c8ec66a2-ad8f-44f4-98d2-f066c4620b03"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Features of Aadhaar Act, 2016",
+      "question": "Which one of the following is not a feature of the Aadhaar (Targeted Delivery of Financial and other Subsidies, Benefits and Services) Act, 2016?"
+    },
+    "content_hi": {
+      "title": "आधार अधिनियम, 2016 की विशेषताएँ",
+      "question": "निम्नलिखित में से कौन-सा 'आधार (वित्तीय और अन्य सब्सिडी, लाभ और सेवाओं के लक्षित वितरण) अधिनियम, 2016' की विशेषता नहीं है?"
+    },
+    "options": [
+      "(a) Only citizens of India are entitled for enrolment under this Act",
+      "(b) Both demographic and biometric information is to be submitted for enrolment",
+      "(c) Unique Identification Authority of India is responsible for enrolment & authentication in this Act",
+      "(d) It is the responsibility of Unique Identification Authority to ensure security of identity of individuals"
+    ],
+    "options_hi": [
+      "(a) केवल भारत के नागरिक इस अधिनियम के अंतर्गत नामांकन के पात्र हैं",
+      "(b) नामांकन के लिए जनसांख्यिकीय और बायोमेट्रिक दोनों प्रकार की जानकारी देनी होती है",
+      "(c) नामांकन और प्रमाणीकरण के लिए भारतीय विशिष्ट पहचान प्राधिकरण (UIDAI) जिम्मेदार है",
+      "(d) व्यक्तियों की पहचान की सुरक्षा सुनिश्चित करना भारतीय विशिष्ट पहचान प्राधिकरण की जिम्मेदारी है"
+    ],
+    "correctAnswer": "(a) Only citizens of India are entitled for enrolment under this Act",
+    "correctAnswer_hi": "(a) केवल भारत के नागरिक इस अधिनियम के अंतर्गत नामांकन के पात्र हैं",
+    "explanation": "आधार अधिनियम, 2016 के अनुसार केवल नागरिक ही नहीं बल्कि भारत में निवास करने वाला कोई भी व्यक्ति आधार के लिए नामांकन कर सकता है। इसलिए केवल नागरिकों के पात्र होने वाला कथन गलत है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Aadhaar Act",
+        "Governance",
+        "Welfare Schemes",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "b643944c-f27f-4c50-8edf-2dda759dd299"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Forced Labour or Begar under Indian Constitution",
+      "question": "Forced labour or Begar is a violation of which one of the following Articles of the Constitution of India?"
+    },
+    "content_hi": {
+      "title": "भारतीय संविधान में बेगार या जबरन श्रम",
+      "question": "जबर्दस्ती श्रम या बेगार भारत के संविधान के निम्नलिखित में से किस अनुच्छेद का उल्लंघन है?"
+    },
+    "options": [
+      "(a) Article 16",
+      "(b) Article 17",
+      "(c) Article 19",
+      "(d) Article 23"
+    ],
+    "options_hi": [
+      "(a) अनुच्छेद 16",
+      "(b) अनुच्छेद 17",
+      "(c) अनुच्छेद 19",
+      "(d) अनुच्छेद 23"
+    ],
+    "correctAnswer": "(d) Article 23",
+    "correctAnswer_hi": "(d) अनुच्छेद 23",
+    "explanation": "अनुच्छेद 23 जबरन श्रम (बगार) और मानव तस्करी पर प्रतिबंध लगाता है। यह नागरिकों को शोषण से सुरक्षा प्रदान करने वाले मौलिक अधिकारों में से एक है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Fundamental Rights",
+        "Indian Constitution",
+        "Articles",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "ce0d408b-f255-4508-ae82-d7eb2f8bf7f9"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Constituent Assembly of India",
+      "question": "Which one of the following statements regarding the Constituent Assembly of India is not correct?"
+    },
+    "content_hi": {
+      "title": "भारत की संविधान सभा",
+      "question": "भारत की संविधान सभा के संबंध में निम्नलिखित में से कौन-सा कथन सही नहीं है?"
+    },
+    "options": [
+      "(a) The Constituent Assembly was composed of members who had been elected indirectly by the Members of the Provincial Legislative Assembly.",
+      "(b) The Constituent Assembly held its first sitting on 9th December 1946.",
+      "(c) The seats in each province were distributed among the three main communities – Muslim, Sikh and General, in proportion to their respective populations.",
+      "(d) The method of selection in the case of representatives of Indian states was to be determined by the Governor General of India."
+    ],
+    "options_hi": [
+      "(a) संविधान सभा के सदस्य प्रांतीय विधानसभाओं के सदस्यों द्वारा अप्रत्यक्ष रूप से चुने गए थे।",
+      "(b) संविधान सभा की पहली बैठक 9 दिसंबर 1946 को हुई थी।",
+      "(c) प्रत्येक प्रांत में सीटों का वितरण तीन प्रमुख समुदायों – मुस्लिम, सिख और सामान्य के बीच उनकी जनसंख्या के अनुपात में किया गया था।",
+      "(d) भारतीय रियासतों के प्रतिनिधियों के चयन की विधि भारत के गवर्नर जनरल द्वारा निर्धारित की जानी थी।"
+    ],
+    "correctAnswer": "(d) The method of selection in the case of representatives of Indian states was to be determined by the Governor General of India.",
+    "correctAnswer_hi": "(d) भारतीय रियासतों के प्रतिनिधियों के चयन की विधि भारत के गवर्नर जनरल द्वारा निर्धारित की जानी थी।",
+    "explanation": "भारतीय रियासतों के प्रतिनिधियों के चयन की विधि गवर्नर जनरल द्वारा नहीं बल्कि संबंधित रियासतों के शासकों द्वारा तय की गई थी। इसलिए विकल्प (d) गलत है।",
+    "metadata": {
+      "difficulty": "medium",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Constitution",
+        "Constituent Assembly",
+        "Indian Polity",
+        "Historical Facts",
+        "Factual"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "7dbacbe3-3729-4715-aa38-6b3817c37cb3"
+  },
+  {
+    "type": "simple-multiple-choice",
+    "content": {
+      "title": "Constitutional and Non-Constitutional Bodies of India",
+      "question": "Which one of the following is not a Constitutional body?"
+    },
+    "content_hi": {
+      "title": "भारत के संवैधानिक और असंवैधानिक निकाय",
+      "question": "निम्नलिखित में से कौन-सा एक संवैधानिक निकाय नहीं है?"
+    },
+    "options": [
+      "(a) Election Commission of India",
+      "(b) The Finance Commission",
+      "(c) The Official Languages Commission",
+      "(d) The National Commission for Women"
+    ],
+    "options_hi": [
+      "(a) भारत निर्वाचन आयोग",
+      "(b) वित्त आयोग",
+      "(c) राजभाषा आयोग",
+      "(d) राष्ट्रीय महिला आयोग"
+    ],
+    "correctAnswer": "(d) The National Commission for Women",
+    "correctAnswer_hi": "(d) राष्ट्रीय महिला आयोग",
+    "explanation": "राष्ट्रीय महिला आयोग एक सांविधिक निकाय है, जो 1992 में 'राष्ट्रीय महिला आयोग अधिनियम' के तहत स्थापित किया गया था। यह संविधान द्वारा सृजित नहीं है।",
+    "metadata": {
+      "difficulty": "easy",
+      "subject": "polity",
+      "tags": [
+        "UPSC",
+        "EPFO",
+        "Constitutional Bodies",
+        "Statutory Bodies",
+        "Governance",
+        "Factual",
+        "Important"
+      ],
+      "exam": "upsc_epfo",
+      "year": "2017",
+      "similarQuestions": []
+    },
+    "id": "a33de1aa-c1d1-442c-ba0f-6181295cd3bd"
   }
 ]
